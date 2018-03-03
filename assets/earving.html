@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.js"></script>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table, td, th {
+      border: 1px solid black;
+      padding: 5px;
+    }
+
+    th {
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+  <?php
+$q = ($_GET['q']);
+$host="localhost";
+$username="fany";
+$password="fany";
+$databasename="comnsa";
+$connect=mysqli_connect($host,$username,$password);
+$con=mysqli_select_db($connect,$databasename);
+
+$sql="SELECT altas.altasid,altas.nombre,pkplanosid,cto,persona,referencia,consecutivo,partida,planono,descripcion,pddf FROM planos left OUTER JOIN altas ON altas.altasid=planos.altasid where altas.nombre= '".$q."'";
+$result = mysqli_query($connect,$sql);
+?>
+
+  <table align="center" id="user_table">
+    <tr>
+      <th>CTO</th>
+      <th>PERSONA</th>
+      <th>REFERENCIA</th>
+      <th>CONSECUTIVO</th>
+      <th>PARTIDA</th>
+      <th>PLANONO</th>
+      <th>DESCRIPCION</th>
+      <th></th>
+    </tr>
+    <?php
+while ($row=mysqli_fetch_array($result))
+{
+ ?>
+    <tr id="row<?php echo $row['pkplanosid'];?>">
+      <td id="CTO_val<?php echo $row['pkplanosid'];?>"><?php echo $row['cto'];?></td>
+      <td id="PERSONA_val<?php echo $row['pkplanosid'];?>"><?php echo $row['persona'];?></td>
+      <td id="REFERENCIA_val<?php echo $row['pkplanosid'];?>"><?php echo $row['referencia'];?></td>
+      <td id="CONSECUTIVO_val<?php echo $row['pkplanosid'];?>"><?php echo $row['consecutivo'];?></td>
+      <td id="PARTIDA_val<?php echo $row['pkplanosid'];?>"><?php echo $row['partida'];?></td>
+      <td id="PLANONO_val<?php echo $row['pkplanosid'];?>"><?php echo $row['planono'];?></td>
+      <td id="DESCRIPCION_val<?php echo $row['pkplanosid'];?>"><?php echo $row['descripcion'];?></td>
+      <td>
+        <input type='button' class="edit_button" id="edit_button<?php echo $row['pkplanosid'];?>" value="edit"
+               onclick="edit_row('<?php echo $row['pkplanosid'];?>');">
+        <input type='button' class="save_button" id="save_button<?php echo $row['pkplanosid'];?>" value="save"
+               onclick="save_row('<?php echo $row['pkplanosid'];?>');">
+        <input type='button' class="delete_button" id="delete_button<?php echo $row['pkplanosid'];?>" value="delete"
+               onclick="delete_row('<?php echo $row['pkplanosid'];?>');">
+      </td>
+    </tr>
+    <?php
+}
+?>
+
+    <tr id="new_row">
+      <td><input type="text" id="new_cto"></td>
+      <td><input type="text" id="new_persona"></td>
+      <td><input type="text" id="new_referencia"></td>
+      <td><input type="text" id="new_consecutivo"></td>
+      <td><input type="text" id="new_partida"></td>
+      <td><input type="text" id="new_planono"></td>
+      <td><input type="text" id="new_descripcion"></td>
+
+      <td>
+        <button id="botonazo" type="button" value="Insert Row" onclick="insertrow()">Inserta</button>
+      </td>
+    </tr>
+  </table>
+
+</div>
+<script>
+  function edit_row(id) {
+    var cto = document.getElementById("cto_val" + id).innerHTML;
+    var persona = document.getElementById("persona_val" + id).innerHTML;
+    var referencia = document.getElementById("referencia_val" + id).innerHTML;
+    var consecutivo = document.getElementById("consecutivo_val" + id).innerHTML;
+    var partida = document.getElementById("partida_val" + id).innerHTML;
+    var planono = document.getElementById("age_val" + id).innerHTML;
+    var descripcion = document.getElementById("age_val" + id).innerHTML;
+
+    document.getElementById("cto_val" + id).innerHTML = "<input type='text' id='cto_text" + id + "'value='" + cto + "'>";
+    document.getElementById("persona_val" + id).innerHTML = "<input type='text' id='persona_text" + id + "' value='" + persona + "'>";
+    document.getElementById("referencia_val" + id).innerHTML = "<input type='text' id='referencia_text" + id + "' value='" + referencia + "'>";
+    document.getElementById("consecutivo_val" + id).innerHTML = "<input type='text' id='consecutivo_text" + id + "' value='" + consecutivo + "'>";
+    document.getElementById("partida_val" + id).innerHTML = "<input type='text' id='partida_text" + id + "' value='" + partida + "'>";
+    document.getElementById("planono_val" + id).innerHTML = "<input type='text' id='planono_text" + id + "' value='" + planono + "'>";
+    document.getElementById("descripcion_val" + id).innerHTML = "<input type='text' id='descripcion_text" + id + "' value='" + descripcion + "'>";
+
+    document.getElementById("edit_button" + id).style.display = "none";
+    document.getElementById("save_button" + id).style.display = "block";
+  }
+
+  function save_row(id) {
+    var cto = document.getElementById("cto_text" + id).value;
+    var persona = document.getElementById("persona_text" + id).value;
+    var referencia = document.getElementById("referencia_text" + id).value;
+    var consecutivo = document.getElementById("consecutivo_text" + id).value;
+    var partida = document.getElementById("partida_text" + id).value;
+    var planono = document.getElementById("planono_text" + id).value;
+    var descripcion = document.getElementById("descripcion_text" + id).value;
+
+    $.ajax
+    ({
+      type: 'post',
+      url: 'modify_records.php',
+      data: {
+        edit_row: 'edit_row',
+        pkplanosid: id,
+        cto_val: cto,
+        persona_val: persona,
+        referencia_val: referencia,
+        consecutivo_val: consecutivo,
+        partida_val: partida,
+        planono_val: planono,
+        descripcion_val: descripcion
+      },
+      success: function (response) {
+        if (response == "success") {
+          document.getElementById("cto_val" + id).innerHTML = cto;
+          document.getElementById("persona_val" + id).innerHTML = persona;
+          document.getElementById("referencia_val" + id).innerHTML = referencia;
+          document.getElementById("consecutivo_val" + id).innerHTML = consecutivo;
+          document.getElementById("partida_val" + id).innerHTML = partida;
+          document.getElementById("planono_val" + id).innerHTML = planono;
+          document.getElementById("descripcion_val" + id).innerHTML = descripcion;
+
+          document.getElementById("edit_button" + id).style.display = "block";
+          document.getElementById("save_button" + id).style.display = "none";
+        }
+      }
+    });
+  }
+
+  function delete_row(id) {
+    $.ajax
+    ({
+      type: 'post',
+      url: 'modify_records.php',
+      data: {
+        delete_row: 'delete_row',
+        pkplanosid: id,
+      },
+      success: function (response) {
+        if (response == "success") {
+          var row = document.getElementById("row" + id);
+          row.parentNode.removeChild(row);
+        }
+      }
+    });
+  }
+
+  function insertrow() {
+    var name = document.getElementById("new_name").value;
+    var age = document.getElementById("new_age").value;
+
+    $.ajax
+    ({
+      type: 'post',
+      url: 'modify_records.php',
+      data: {
+        insert_row: 'insert_row',
+        pkplanosid: id,
+        cto_val: cto,
+        persona_val: persona,
+        referencia_val: referencia,
+        consecutivo_val: consecutivo,
+        partida_val: partida,
+        planono_val: planono,
+        descripcion_val: descripcion
+      },
+      success: function (response) {
+        if (response != "") {
+          var id = response;
+          var table = document.getElementById("user_table");
+          var table_len = (table.rows.length) - 1;
+          var row = table.insertRow(table_len).outerHTML = "<tr id='row" + id + "'><td id='cto_val" + id + "'>" + cto + "</td><td id='persona_val" + id + "'>" + persona + "</td><td id='referencia_val" + id + "'>" + referencia + "</td><td id='consecutivo_val" + id + "'>" + consecutivo + "</td><td id='partida_val" + id + "'>" + partida + "</td><td id='planono_val" + id + "'>" + planono + "</td>
+            < td
+          id = 'descripcion_val"+id+"' > +descripcion + "</td><td><input type='button' class='edit_button' id='edit_button" + id + "' value='edit' onclick='edit_row(" + id + ");'/><input type='button' class='save_button' id='save_button" + id + "' value='save' onclick='save_row(" + id + ");'/><input type='button' class='delete_button' id='delete_button" + id + "' value='delete' onclick='delete_row(" + id + ");'/></td></tr>";
+
+
+          document.getElementById("new_cto").value = "";
+          document.getElementById("new_persona").value = "";
+          document.getElementById("new_referencia").value = "";
+          document.getElementById("new_consecutivo").value = "";
+          document.getElementById("new_partida").value = "";
+          document.getElementById("new_planono").value = "";
+          document.getElementById("new_descripcion").value = "";
+        }
+      }
+    });
+  }
+</script>
+</body>
+</html>
