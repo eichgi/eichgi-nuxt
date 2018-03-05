@@ -29,14 +29,17 @@
         </div>
       </section>
     </div>
+    <custom-footer></custom-footer>
   </div>
 </template>
 <script>
-  import navbar from '~/components/navigation/navbar.vue'
+  import navbar from '~/components/navigation/navbar'
+  import footer from '~/components/navigation/footer'
 
   export default {
     components: {
       navbar,
+      'custom-footer': footer,
     }
   }
 </script>

@@ -73,16 +73,16 @@
         <swiper :options="swiperOption" ref="mySwiper">
           <!-- slides -->
           <swiper-slide>
-            <img src="~/assets/images/proyectos/rovix.png" alt="" width="100%">
+            <img src="~/assets/images/proyectos/rovix.png" alt="" width="100%" @click="goProject('rovix')">
           </swiper-slide>
           <swiper-slide>
-            <img src="~/assets/images/proyectos/alemanisch.jpg" alt="" width="100%">
+            <img src="~/assets/images/proyectos/alemanisch.jpg" alt="" width="100%" @click="goProject('alemanisch')">
           </swiper-slide>
           <swiper-slide>
-            <img src="~/assets/images/proyectos/comunidad.jpg" alt="" width="100%">
+            <img src="~/assets/images/proyectos/comunidad.jpg" alt="" width="100%" @click="goProject('comunidad')">
           </swiper-slide>
           <swiper-slide>
-            <img src="~/assets/images/proyectos/eichgi.png" alt="" width="100%">
+            <img src="~/assets/images/proyectos/eichgi.png" alt="" width="100%" @click="goProject('eichgi')">
           </swiper-slide>
           <!-- Optional controls -->
           <div class="swiper-pagination" slot="pagination"></div>
@@ -107,6 +107,9 @@
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev'
           },
+          autoplay: {
+            delay: 5000,
+          },
         }
       }
     },
@@ -120,7 +123,11 @@
       swiper,
       swiperSlide
     },
-    methods: {}
+    methods: {
+      goProject(id) {
+        this.$router.push(`/portafolio/${id}`);
+      }
+    }
   }
 </script>
 

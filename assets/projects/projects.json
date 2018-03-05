@@ -1,0 +1,33 @@
+{
+  "rovix": {
+    "title": "Rovix",
+    "description": "Rovix fue creado por 2 razones: La primera era lanzar otro proyecto personal realizado con Laravel; la segunda era porque quería llevar un registro de todo el material que me ha servido para aprender diferentes tecnologías. Ya sean libros, repositorios, blogs, cursos gratuitos y/o de paga, etc... El punto de la plataforma es que funcione como un mapeador de recursos dónde los usuarios puedan compartir el material que les ha ayudado a aprender.",
+    "images": [
+      "~/static/proyectos/rovix_1.png",
+      "~/static/proyectos/rovix_2.png",
+      "~/static/proyectos/rovix_3.png"
+    ],
+    "tools": "Rovix esta hecho en Laravel, utiliza MySQL como BD y puesto en producción en Digital Ocean. Si te interesa saber más sobre el proyecto puedes visitar el repositorio oficial: Rovix. Donde podrás encontrar las librerías utilizadas, la estructura, entre otros."
+  },
+  "alemanisch": {
+    "title": "Alemanisch",
+    "description": "Alemannisch es el 1° proyecto con el que empecé en el mundo del desarrollo web hace años. Esta es la tercera iteración el proyecto que realizó y que por fin llega a producción. Si quieres saber más sobre el proyecto y su estructura te invito a que revisas el repo del proyecto.",
+    "images": [
+    ],
+    "tools": "Esta plataforma esta dividida en dos partes: Front-end: Single Page Application realizada con Vue.js en shared hosting Back-end: Laravel API en VPS"
+  },
+  "comunidad": {
+    "title": "ComunidadITCM",
+    "description": "Comunidad ITCM es una plataforma libre y gratuita para los estudiantes del tec de madero. Fue planeada para servir como guía y referencia para todos aquellos que deseen participar en el proyecto. No esta regulada por ninguna autoridad, solo por alumnos de la misma institución. Es un plataforma que busca mejorar constantemente y sin fines de lucro, además ha sido liberada con una licencia Apache 2.0 para que cualquier persona pueda ver o modificar el proyecto.",
+    "images": [
+    ],
+    "tools": "Para el frontend se utilizó una versión combinada de la libreria Bootstrap con Material Design Lite, además de jQuery. Para el backend se utilizó PHP como lenguaje servidor y MySQL para persistencia de datos. Además también se utilizaron las librerias bootboxjs, JasnyBootstrap y el sistema de notificaciones push One Signal."
+  },
+  "eichgi": {
+    "title": "Eichgi Site",
+    "description": "Este sitio es la segunda versión que realizo para ofrecer mis servicios como desarrollador de software.",
+    "images": [
+    ],
+    "tools": "Es una SPA realizada con Nuxt.js, y proximamente será una PWA también!"
+  }
+}
