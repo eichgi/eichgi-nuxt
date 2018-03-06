@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d0e8cc4-abdd-42e4-a6ba-5277da6f1203" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/components/blog/post-card.vue" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/proyectos/comunidad_1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/proyectos/comunidad_2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/proyectos/comunidad_3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/store/old-index.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/images/proyectos/rovix_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/images/proyectos/rovix_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/images/proyectos/rovix_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/projects/projects.json" afterPath="$PROJECT_DIR$/assets/projects/projects.json" />
-      <change beforePath="$PROJECT_DIR$/assets/projects/rovix.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pages/blog/index.vue" afterPath="$PROJECT_DIR$/pages/blog/index.vue" />
-      <change beforePath="$PROJECT_DIR$/pages/portafolio/index.vue" afterPath="$PROJECT_DIR$/pages/portafolio/index.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -280,12 +267,12 @@
       <workItem from="1520175213471" duration="17901000" />
       <workItem from="1520216792982" duration="6011000" />
       <workItem from="1520262407842" duration="12170000" />
-      <workItem from="1520304616479" duration="361000" />
+      <workItem from="1520304616479" duration="540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59212000" />
+    <option name="totallyTimeSpent" value="59391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-8" width="1319" height="784" extended-state="6" />
