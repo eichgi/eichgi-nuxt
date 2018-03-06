@@ -73,16 +73,16 @@
         <swiper :options="swiperOption" ref="mySwiper">
           <!-- slides -->
           <swiper-slide>
-            <img src="~/assets/images/proyectos/rovix.png" alt="" width="100%" @click="goProject('rovix')">
+            <img src="/proyectos/rovix.png" alt="" width="100%" @click="goProject('rovix')">
           </swiper-slide>
           <swiper-slide>
-            <img src="~/assets/images/proyectos/alemanisch.jpg" alt="" width="100%" @click="goProject('alemanisch')">
+            <img src="/proyectos/alemanisch.jpg" alt="" width="100%" @click="goProject('alemanisch')">
           </swiper-slide>
           <swiper-slide>
-            <img src="~/assets/images/proyectos/comunidad.jpg" alt="" width="100%" @click="goProject('comunidad')">
+            <img src="/proyectos/comunidad.jpg" alt="" width="100%" @click="goProject('comunidad')">
           </swiper-slide>
           <swiper-slide>
-            <img src="~/assets/images/proyectos/eichgi.png" alt="" width="100%" @click="goProject('eichgi')">
+            <img src="/proyectos/eichgi.png" alt="" width="100%" @click="goProject('eichgi')">
           </swiper-slide>
           <!-- Optional controls -->
           <div class="swiper-pagination" slot="pagination"></div>
