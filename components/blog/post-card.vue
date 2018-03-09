@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class="content" v-html="post.excerpt.rendered"></div>
-      <a href="#" class="button is-link is-fullwidth">Ver</a>
+      <a :href="post.link" target="_blank" class="button is-link is-fullwidth">Ver entrada</a>
     </div>
   </div>
 </template>

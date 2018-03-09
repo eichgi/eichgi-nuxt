@@ -4,7 +4,7 @@
     <div class="container">
       <section class="section">
         <div class="columns">
-          <div class="column is-3 has-text-centered border-right">
+          <div :class="[path != '/' ? 'is-hidden-touch' : '', 'column is-3 has-text-centered border-right']">
             <div class="image">
               <img src="~/assets/images/me.jpg">
             </div>
@@ -37,9 +37,17 @@
   import footer from '~/components/navigation/footer'
 
   export default {
+    created() {
+      console.log(this.$route.path);
+    },
     components: {
       navbar,
       'custom-footer': footer,
+    },
+    computed: {
+      path: function () {
+        return this.$route.path;
+      },
     }
   }
 </script>
