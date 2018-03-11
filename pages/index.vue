@@ -5,7 +5,7 @@
         <div class="content">
           <p class="">Soy un desarrollador de software enfocado en tecnologías web y móvil. Constantemente estoy
             aprendiendo y desarrollando proyectos que me impongan retos para poder mejorar y
-            continuar actualizado. Mucho de los que aprendo lo comparto en mi <a href="#">Blog</a> y en <a
+            continuar actualizado. Mucho de lo que aprendo lo comparto en mi <a href="#">Blog</a> y en <a
               href="#">Medium</a>.</p>
         </div>
       </div>

@@ -24,6 +24,12 @@
               </span>
               <span>LinkedIn</span>
             </a>
+            <nuxt-link to="/contacto" class="button is-dark message-button">
+              <span class="icon">
+                <i class="fa fa-envelope"></i>
+              </span>
+              <span>Contacto</span>
+            </nuxt-link>
           </div>
           <nuxt/>
         </div>
@@ -114,6 +120,11 @@
   .linked-in-button,
   .linked-in-button:hover {
     background: #0077B5 !important;
+  }
+
+  .message-button,
+  .message-button:hover {
+    background: #D91E18 !important;
   }
 
   @media screen and (min-width: 1024px) {

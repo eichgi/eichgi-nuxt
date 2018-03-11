@@ -19,7 +19,7 @@
 <style scoped>
   footer {
     padding: 1em;
-    margin-top: 2em;
+    /*margin-top: 2em;*/
     background: #EEE;
   }
 </style>
