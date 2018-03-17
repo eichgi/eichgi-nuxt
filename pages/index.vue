@@ -5,8 +5,8 @@
         <div class="content">
           <p class="">Soy un desarrollador de software enfocado en tecnologías web y móvil. Constantemente estoy
             aprendiendo y desarrollando proyectos que me impongan retos para poder mejorar y
-            continuar actualizado. Mucho de lo que aprendo lo comparto en mi <a href="#">Blog</a> y en <a
-              href="#">Medium</a>.</p>
+            continuar actualizado. Mucho de lo que aprendo lo comparto en mi <nuxt-link to="/blog">Blog</nuxt-link> y en <a
+              href="https://medium.com/@eichgi" target="_blank">Medium</a>.</p>
         </div>
       </div>
     </div>

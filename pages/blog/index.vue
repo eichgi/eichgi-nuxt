@@ -1,5 +1,5 @@
 <template>
-  <div class="column is-9">
+  <div class="column is-9" style="min-height: 85vh;">
     <h1 class="title">Bienvenido a mi Blog!</h1>
     <div v-show="this.postsChunked.length === 0">
       <p class="subtitle has-text-centered">Cargando...</p>

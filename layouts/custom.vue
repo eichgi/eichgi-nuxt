@@ -69,6 +69,11 @@
     box-sizing: border-box;
   }
 
+  body {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
   *, *:before, *:after {
     box-sizing: border-box;
     margin: 0;

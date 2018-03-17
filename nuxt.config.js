@@ -18,6 +18,9 @@ module.exports = {
       {rel: 'icon', type: 'image/x-icon', href: '~/assets/images/favicon.gif'},
       {rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'},
       {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Merriweather+Sans|Ubuntu'},
+    ],
+    script: [
+      {type: 'text/javascript', src: 'https://cdn.emailjs.com/dist/email.min.js'}
     ]
   },
 
