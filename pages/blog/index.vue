@@ -1,6 +1,6 @@
 <template>
   <div class="column is-9" style="min-height: 85vh;">
-    <h1 class="title">Bienvenido a mi Blog!</h1>
+    <p class="quote">Aprender para compartir, compartir para seguir aprendiendo.</p>
     <div v-show="this.postsChunked.length === 0">
       <p class="subtitle has-text-centered">Cargando...</p>
       <div class="sk-wave">
@@ -149,5 +149,14 @@
       -webkit-transform: scaleY(1);
       transform: scaleY(1);
     }
+  }
+
+  .quote {
+    border-left: 5px solid #7f828b;
+    padding: 1em 2em;
+    background: #dbe1ec;
+    border-radius: 1px;
+    margin-bottom: 1.5em;
+    font-style: italic;
   }
 </style>

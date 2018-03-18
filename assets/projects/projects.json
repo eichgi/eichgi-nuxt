@@ -13,6 +13,9 @@
     "title": "Alemanisch",
     "description": "Alemannisch es el 1° proyecto con el que empecé en el mundo del desarrollo web hace años. Esta es la tercera iteración el proyecto que realizó y que por fin llega a producción. Si quieres saber más sobre el proyecto y su estructura te invito a que revisas el repo del proyecto.",
     "images": [
+      "/proyectos/alemanisch_1.png",
+      "/proyectos/alemanisch_2.png",
+      "/proyectos/alemanisch_3.png"
     ],
     "tools": "Esta plataforma esta dividida en dos partes: Front-end: Single Page Application realizada con Vue.js en shared hosting Back-end: Laravel API en VPS"
   },
@@ -30,6 +33,8 @@
     "title": "Eichgi Site",
     "description": "Este sitio es la segunda versión que realizo para ofrecer mis servicios como desarrollador de software.",
     "images": [
+      "/proyectos/eichgi_1.png",
+      "/proyectos/eichgi_2.png"
     ],
     "tools": "Es una SPA realizada con Nuxt.js, y proximamente será una PWA también!"
   }
