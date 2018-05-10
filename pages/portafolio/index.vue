@@ -64,14 +64,17 @@
     <hr>
     <div class="columns">
       <div class="column is-12">
-        <p class="subtitle">Side Projects</p>
-        <p>Estos son algunos proyectos personales que he lanzado, de los cuáles he aprendido mucho.</p>
+        <p class="subtitle">Lanzamientos</p>
+        <p>Estos son algunos proyectos personales que he lanzado, de los cuáles he aprendido mucho</p>
       </div>
     </div>
     <div class="columns">
       <div class="column is-12">
         <swiper :options="swiperOption" ref="mySwiper">
           <!-- slides -->
+          <swiper-slide>
+            <img src="/proyectos/simplex.png" alt="" width="100%" @click="goProject('simplex')">
+          </swiper-slide>
           <swiper-slide>
             <img src="/proyectos/rovix.png" alt="" width="100%" @click="goProject('rovix')">
           </swiper-slide>

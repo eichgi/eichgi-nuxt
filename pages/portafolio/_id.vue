@@ -16,6 +16,9 @@
     </swiper>
     <p class="subtitle">Herramientas</p>
     <p>{{project.tools}}</p>
+    <br>
+    <a :href="project.url" class="button message-button" style="color: snow">
+      Visitar sitio &nbsp; <i class="fa fa-external-link"></i></a>
   </div>
 </template>
 

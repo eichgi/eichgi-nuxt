@@ -1,4 +1,13 @@
 {
+  "simplex": {
+    "title": "Simplex",
+    "description": "Mantén tú inventario siempre actualizado, sencillo punto de venta fácil de usar, lleva estadísticas de todas tus compras, ventas y más!",
+    "images": [
+      "/proyectos/simplex_1.png"
+    ],
+    "tools": "SaaS realizado con Laravel, para mayor información y demo accede al sitio",
+    "url": "http://simplex.mx"
+  },
   "rovix": {
     "title": "Rovix",
     "description": "Rovix fue creado por 2 razones: La primera era lanzar otro proyecto personal realizado con Laravel; la segunda era porque quería llevar un registro de todo el material que me ha servido para aprender diferentes tecnologías. Ya sean libros, repositorios, blogs, cursos gratuitos y/o de paga, etc... El punto de la plataforma es que funcione como un mapeador de recursos dónde los usuarios puedan compartir el material que les ha ayudado a aprender.",
@@ -7,7 +16,8 @@
       "/proyectos/rovix_2.png",
       "/proyectos/rovix_3.png"
     ],
-    "tools": "Rovix esta hecho en Laravel, utiliza MySQL como BD y puesto en producción en Digital Ocean. Si te interesa saber más sobre el proyecto puedes visitar el repositorio oficial: Rovix. Donde podrás encontrar las librerías utilizadas, la estructura, entre otros."
+    "tools": "Rovix esta hecho en Laravel, utiliza MySQL como BD y puesto en producción en Digital Ocean. Si te interesa saber más sobre el proyecto puedes visitar el repositorio oficial: Rovix. Donde podrás encontrar las librerías utilizadas, la estructura, entre otros.",
+    "url": "https://rovix.xyz"
   },
   "alemanisch": {
     "title": "Alemanisch",
@@ -17,7 +27,8 @@
       "/proyectos/alemanisch_2.png",
       "/proyectos/alemanisch_3.png"
     ],
-    "tools": "Esta plataforma esta dividida en dos partes: Front-end: Single Page Application realizada con Vue.js en shared hosting Back-end: Laravel API en VPS"
+    "tools": "Esta plataforma esta dividida en dos partes: Front-end: Single Page Application realizada con Vue.js en shared hosting Back-end: Laravel API en VPS",
+    "url": "http://alemanisch.xyz"
   },
   "comunidad": {
     "title": "ComunidadITCM",
@@ -27,7 +38,8 @@
       "/proyectos/comunidad_2.jpg",
       "/proyectos/comunidad_3.jpg"
     ],
-    "tools": "Para el frontend se utilizó una versión combinada de la libreria Bootstrap con Material Design Lite, además de jQuery. Para el backend se utilizó PHP como lenguaje servidor y MySQL para persistencia de datos. Además también se utilizaron las librerias bootboxjs, JasnyBootstrap y el sistema de notificaciones push One Signal."
+    "tools": "Para el frontend se utilizó una versión combinada de la libreria Bootstrap con Material Design Lite, además de jQuery. Para el backend se utilizó PHP como lenguaje servidor y MySQL para persistencia de datos. Además también se utilizaron las librerias bootboxjs, JasnyBootstrap y el sistema de notificaciones push One Signal.",
+    "url": "#"
   },
   "eichgi": {
     "title": "Eichgi Site",
@@ -36,6 +48,7 @@
       "/proyectos/eichgi_1.png",
       "/proyectos/eichgi_2.png"
     ],
-    "tools": "Es una SPA realizada con Nuxt.js, y proximamente será una PWA también!"
+    "tools": "Es una SPA realizada con Nuxt.js, y proximamente será una PWA también!",
+    "url": "/"
   }
 }

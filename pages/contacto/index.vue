@@ -54,7 +54,7 @@
     layout: 'custom',
     methods: {
       sendMail() {
-        if (!this.validateForm) {
+        if (!this.validateForm()) {
           alert('Por favor llena todos los campos');
           return false;
         }
@@ -64,18 +64,16 @@
           message: this.message.trim()
         })
           .then((response) => {
-            //console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
             if (response.text === "OK") {
               this.emailSent();
               this.clearForm();
             }
           }, (err) => {
-            //console.log("FAILED. error=", err);
             this.emailError();
           });
       },
       validateForm() {
-        return this.name.trim() !== '' && this.email.trim() !== '' && this.message.trim() !== '';
+        return this.name.trim() !== '' && this.validateEmail(this.email.trim()) && this.message.trim() !== '';
       },
       emailSent() {
         alert('Tu correo fue enviado exitosamente');
@@ -86,6 +84,10 @@
       clearForm() {
         this.name = this.email = this.message = '';
       },
+      validateEmail(email) {
+        let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(String(email).toLowerCase());
+      }
     }
   }
 </script>
