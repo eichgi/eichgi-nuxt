@@ -5,8 +5,11 @@
         <div class="content">
           <p class="">Soy un desarrollador de software enfocado en tecnologías web y móvil. Constantemente estoy
             aprendiendo y desarrollando proyectos que me impongan retos para poder mejorar y
-            continuar actualizado. Mucho de lo que aprendo lo comparto en mi <nuxt-link to="/blog">Blog</nuxt-link> y en <a
-              href="https://medium.com/@eichgi" target="_blank">Medium</a>.</p>
+            continuar actualizado. Mucho de lo que aprendo lo comparto en mi
+            <nuxt-link to="/blog">Blog</nuxt-link>
+            y en <a
+              href="https://medium.com/@eichgi" target="_blank">Medium</a>.
+          </p>
         </div>
       </div>
     </div>
@@ -94,6 +97,12 @@
                   <span class="icon is-pulled-right red-color">
                             <i class="fa fa-check-circle"></i>
                           </span>
+                </li>
+                <li>
+                  <a href="https://bitpress.io/docker-for-php-developers/" target="_blank">Docker for PHP Developers</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-spinner fa-spin"></i>
+                  </span>
                 </li>
               </ul>
             </div>
