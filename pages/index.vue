@@ -104,6 +104,12 @@
                     <i class="fa fa-spinner fa-spin"></i>
                   </span>
                 </li>
+                <li>
+                  <a href="https://courses.serversforhackers.com/scaling-laravel" target="_blank">Scaling Laravel</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-spinner fa-spin"></i>
+                  </span>
+                </li>
               </ul>
             </div>
           </div>

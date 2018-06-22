@@ -1,4 +1,17 @@
 {
+  "simplex": {
+    "title": "Simplex",
+    "description": "Mantén tú inventario siempre actualizado, sencillo punto de venta fácil de usar, lleva estadísticas de todas tus compras, ventas y más!",
+    "images": [
+      "/proyectos/sx-1.png",
+      "/proyectos/sx-2.png",
+      "/proyectos/sx-3.png",
+      "/proyectos/sx-4.png",
+      "/proyectos/sx-5.png",
+      "/proyectos/sx-6.png"
+    ],
+    "tools": "Simplex POS es una plataforma SaaS que cuenta con el módulo de Punto de Venta e Inventarios para poder gestionar de forma sencilla y eficiente tu PyME. Si estás intereado en este producto por favor accede a <a target=_blank href=http://simplex.mx>http://simplex.mx</a> y solicitalo"
+  },
   "rovix": {
     "title": "Rovix",
     "description": "Rovix fue creado por 2 razones: La primera era lanzar otro proyecto personal realizado con Laravel; la segunda era porque quería llevar un registro de todo el material que me ha servido para aprender diferentes tecnologías. Ya sean libros, repositorios, blogs, cursos gratuitos y/o de paga, etc... El punto de la plataforma es que funcione como un mapeador de recursos dónde los usuarios puedan compartir el material que les ha ayudado a aprender.",
@@ -18,6 +31,16 @@
       "/proyectos/alemanisch_3.png"
     ],
     "tools": "Esta plataforma esta dividida en dos partes: Front-end: Single Page Application realizada con Vue.js en shared hosting Back-end: Laravel API en VPS"
+  },
+  "legion-anime": {
+    "title": "Legión Anime",
+    "description": "App Android para ver anime, colaboré para desacoplar y migrar este proyecto a la nube; actualmente también me encuentro trabajando el backend para optimizarlo y poder hacerlo rentable.",
+    "images": [
+      "/proyectos/la-index.png",
+      "/proyectos/la-detail.png",
+      "/proyectos/la-logo.png"
+    ],
+    "tools": "Android App + API  + Cloud"
   },
   "comunidad": {
     "title": "ComunidadITCM",

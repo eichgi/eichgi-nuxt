@@ -15,7 +15,7 @@
       <div class="swiper-button-next" slot="button-next"></div>
     </swiper>
     <p class="subtitle">Herramientas</p>
-    <p>{{project.tools}}</p>
+    <p v-html="project.tools"><!--{{project.tools}}--></p>
   </div>
 </template>
 

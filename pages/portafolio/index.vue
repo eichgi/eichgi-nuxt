@@ -65,7 +65,7 @@
     <div class="columns">
       <div class="column is-12">
         <p class="subtitle">Side Projects</p>
-        <p>Estos son algunos proyectos personales que he lanzado, de los cuáles he aprendido mucho.</p>
+        <p>Estos son algunos proyectos personales que he lanzado y/o colaborado, de los cuáles he aprendido mucho.</p>
       </div>
     </div>
     <div class="columns">
@@ -73,10 +73,16 @@
         <swiper :options="swiperOption" ref="mySwiper">
           <!-- slides -->
           <swiper-slide>
+            <img src="/proyectos/sx-1.png" alt="" width="100%" @click="goProject('simplex')">
+          </swiper-slide>
+          <swiper-slide>
             <img src="/proyectos/rovix.png" alt="" width="100%" @click="goProject('rovix')">
           </swiper-slide>
           <swiper-slide>
             <img src="/proyectos/alemanisch.jpg" alt="" width="100%" @click="goProject('alemanisch')">
+          </swiper-slide>
+          <swiper-slide>
+            <img src="/proyectos/la-logo.png" alt="" width="100%" @click="goProject('legion-anime')">
           </swiper-slide>
           <swiper-slide>
             <img src="/proyectos/comunidad.jpg" alt="" width="100%" @click="goProject('comunidad')">

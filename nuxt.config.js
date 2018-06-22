@@ -20,7 +20,8 @@ module.exports = {
       {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Merriweather+Sans|Ubuntu'},
     ],
     script: [
-      {type: 'text/javascript', src: 'https://cdn.emailjs.com/dist/email.min.js'}
+      {type: 'text/javascript', src: 'https://cdn.emailjs.com/dist/email.min.js'},
+      {type: 'text/javascript', src: 'https://platform.linkedin.com/badges/js/profile.js'}
     ]
   },
 

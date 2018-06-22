@@ -4,6 +4,13 @@
     <div class="container">
       <section class="section">
         <div class="columns">
+          <!--<div :class="[path != '/' ? 'is-hidden-touch' : '', 'column is-3 has-text-centered border-right']">
+            <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="es_ES" data-type="vertical"
+                 data-theme="dark" data-vanity="hiram-guerrero" style="padding: 0.75rem; width: 100% !important;">
+              <a class="LI-simple-link" href='https://mx.linkedin.com/in/hiram-guerrero?trk=profile-badge'>Hiram
+                Guerrero</a>
+            </div>
+          </div>-->
           <div :class="[path != '/' ? 'is-hidden-touch' : '', 'column is-3 has-text-centered border-right']">
             <div class="image">
               <img src="~/assets/images/me.jpg">
