@@ -76,6 +76,9 @@
             <img src="/proyectos/sx-1.png" alt="" width="100%" @click="goProject('simplex')">
           </swiper-slide>
           <swiper-slide>
+            <img src="/proyectos/devjournal-1.png" alt="" width="100%" @click="goProject('devjournal')">
+          </swiper-slide>
+          <swiper-slide>
             <img src="/proyectos/rovix.png" alt="" width="100%" @click="goProject('rovix')">
           </swiper-slide>
           <swiper-slide>

@@ -1,7 +1,22 @@
 body {
   font-family: 'Merriweather Sans', sans-serif !important;
+  background: url('/assets/images/diamonds-bg.jpg');
+}
+
+#main-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  background: white;
 }
 
 .title, .subtitle, a {
   font-family: 'Ubuntu', sans-serif;
+}
+
+.red-color {
+  color: #D91E18;
+}
+
+.has-text-underlined {
+  text-decoration: underline;
 }

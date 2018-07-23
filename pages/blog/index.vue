@@ -1,7 +1,8 @@
 <template>
   <div class="column is-9" style="min-height: 85vh;">
     <p class="quote">Aprender para compartir, compartir para seguir aprendiendo.</p>
-    <div v-show="this.postsChunked.length === 0">
+    <!--<div v-show="this.postsChunked.length === 0">-->
+    <div v-show="showLoading">
       <p class="subtitle has-text-centered">Cargando...</p>
       <div class="sk-wave">
         <div class="sk-rect sk-rect1"></div>
@@ -11,44 +12,57 @@
         <div class="sk-rect sk-rect5"></div>
       </div>
     </div>
-    <div class="columns" v-for="chunk in postsChunked">
+    <!--<div class="columns" v-for="chunk in postsChunked">
       <div class="column is-half">
         <PostCard :post="chunk[0]"/>
       </div>
-      <div class="column is-half">
+      &lt;!&ndash;<div class="column is-half">
         <PostCard :post="chunk[1]"/>
+      </div>&ndash;&gt;
+    </div>-->
+    <div v-show="!showLoading">
+      <div class="columns">
+        <div class="column is-half">
+          <p class="title has-text-centered has-text-underlined">HOC Labs</p>
+        </div>
+        <div class="column is-half">
+          <p class="title has-text-centered has-text-underlined">DevJournal</p>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-half">
+          <PostCard v-for="post in posts" :post="post"/>
+        </div>
+        <div class="column is-half">
+          <entry :post="entry" v-for="entry in journalPosts"/>
+        </div>
       </div>
     </div>
-    <!--<div class="columns">
-      <div class="column is-half">
-        <PostCard v-for="post in posts" :post="post"/>
-      </div>
-    </div>-->
   </div>
 </template>
 
 <script>
   import axios from 'axios'
   import PostCard from '~/components/blog/post-card'
-
-  /*function chunkArray(myArray, chunk_size) {
-    let results = [];
-    while (myArray.length) {
-      results.push(myArray.splice(0, chunk_size));
-    }
-    return results;
-  }*/
+  import entry from '~/components/blog/entry'
 
   export default {
     created() {
       this.getRecentPosts();
+      this.getRecentJournalPosts();
     },
     components: {
       PostCard,
+      entry,
     },
     data() {
       return {
         images: [],
+        filters: {
+          sort: {_created: -1},
+          limit: 5,
+          skip: 0,
+        }
       }
     },
     name: "blog",
@@ -57,16 +71,27 @@
       posts: function () {
         return this.$store.getters.posts;
       },
+      journalPosts: function () {
+        return this.$store.getters.journalPosts;
+      },
       postsChunked: function () {
-        return this.chunkArray(this.posts, 2);
+        //return this.chunkArray(this.posts, 2);
+        return [];
       },
       showLoading: function () {
-        return this.posts === 0;
+        //return this.posts === 0;
+        return !(this.posts.length > 0 && this.journalPosts.length > 0);
       }
     },
     methods: {
+      getRecentJournalPosts() {
+        this.$axios.$post(`${process.env.SERVER}/api/collections/get/publicaciones?token=${process.env.TOKEN}`, this.filters)
+          .then(res => {
+            this.$store.commit('journalPosts', res.entries);
+          });
+      },
       getRecentPosts() {
-        axios.get('https://www.hoclabs.com/wp-json/wp/v2/posts/?_embed')
+        axios.get(`${process.env.WP_HOCLABS}/wp-json/wp/v2/posts/?_embed&per_page=5`)
           .then((res) => {
             this.$store.commit('posts', res.data);
           });

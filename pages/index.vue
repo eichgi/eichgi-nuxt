@@ -6,9 +6,9 @@
           <p class="">Soy un desarrollador de software enfocado en tecnologías web y móvil. Constantemente estoy
             aprendiendo y desarrollando proyectos que me impongan retos para poder mejorar y
             continuar actualizado. Mucho de lo que aprendo lo comparto en mi
-            <nuxt-link to="/blog">Blog</nuxt-link>
-            y en <a
-              href="https://medium.com/@eichgi" target="_blank">Medium</a>.
+            <a href="https://hoclabs.com/blog" target="_blank">WP Blog</a>,
+            <a href="http://devjournal.eichgi.com" target="_blank">DevJournal Blog</a>
+            y en <a href="https://medium.com/@eichgi" target="_blank">Medium</a>.
           </p>
         </div>
       </div>
@@ -68,14 +68,14 @@
                   <a href="https://www.udemy.com/certificate/UC-LKG6SYX2/" target="_blank">Udemy: PHP with
                     Laravel for beginners - Become a Master in Laravel</a>
                   <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-check-circle"></i>
-                          </span>
+                    <i class="fa fa-check-circle"></i>
+                  </span>
                 </li>
                 <li>
                   <a href="#">FreeCodeCamp: Backend Development Program</a>
                   <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-spinner fa-spin"></i>
-                          </span>
+                    <i class="fa fa-spinner fa-spin"></i>
+                  </span>
                 </li>
               </ul>
             </div>
@@ -89,14 +89,26 @@
                 <li>
                   <a href="https://www.udemy.com/certificate/UC-YIMC2R57/" target="_blank">AWS Concepts</a>
                   <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-check-circle"></i>
-                          </span>
+                    <i class="fa fa-check-circle"></i>
+                  </span>
                 </li>
                 <li>
                   <a href="https://www.udemy.com/certificate/UC-95XW8KD5/" target="_blank">AWS Essentials</a>
                   <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-check-circle"></i>
-                          </span>
+                    <i class="fa fa-check-circle"></i>
+                  </span>
+                </li>
+                <li>
+                  <a href="https://laracasts.com/series/learn-laravel-forge" target="_blank">Learn Laravel Forge</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-check-circle"></i>
+                  </span>
+                </li>
+                <li>
+                  <a href="https://geekytheory.com/curso/vagrant" target="_blank">Curso de Vagrant</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-check-circle"></i>
+                  </span>
                 </li>
                 <li>
                   <a href="https://bitpress.io/docker-for-php-developers/" target="_blank">Docker for PHP Developers</a>

@@ -12,3 +12,6 @@ dist
 
 #Idea Workspace
 .idea/workspace.xml
+
+#env file
+.env
