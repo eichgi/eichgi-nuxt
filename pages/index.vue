@@ -7,8 +7,12 @@
             aprendiendo y desarrollando proyectos que me impongan retos para poder mejorar y
             continuar actualizado. Mucho de lo que aprendo lo comparto en mi
             <a href="https://hoclabs.com/blog" target="_blank">WP Blog</a>,
-            <a href="http://devjournal.eichgi.com" target="_blank">DevJournal Blog</a>
-            y en <a href="https://medium.com/@eichgi" target="_blank">Medium</a>.
+            <a href="http://devjournal.eichgi.com" target="_blank">DevJournal Blog</a>, en <a
+              href="https://medium.com/@eichgi" target="_blank">Medium</a> y en <a href="https://dev.to/eichgi"
+                                                                                   target="_blank">
+              <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Hiram's DEV Profile" height="20"
+                   width="20"/>
+            </a>.
           </p>
         </div>
       </div>
@@ -73,6 +77,13 @@
                 </li>
                 <li>
                   <a href="#">FreeCodeCamp: Backend Development Program</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-spinner fa-spin"></i>
+                  </span>
+                </li>
+                <li>
+                  <a href="https://aprendible.com/series/red-social-laravel-tdd" target="_blank">Construyendo una red
+                    social con Laravel & TDD</a>
                   <span class="icon is-pulled-right red-color">
                     <i class="fa fa-spinner fa-spin"></i>
                   </span>
@@ -206,6 +217,20 @@
                 </li>
                 <li>
                   <a href="#">Udemy: Programación de Android desde Cero</a>
+                  <span class="icon is-pulled-right red-color">
+                            <i class="fa fa-spinner fa-spin"></i>
+                          </span>
+                </li>
+                <li>
+                  <a href="https://laracasts.com/series/solid-principles-in-php" target="_blank">Laracasts: SOLID
+                    Principles in PHP</a>
+                  <span class="icon is-pulled-right red-color">
+                            <i class="fa fa-spinner fa-spin"></i>
+                          </span>
+                </li>
+                <li>
+                  <a href="https://university.redislabs.com/courses/course-v1:redislabs+RU101+2018_02/about" target="_blank">Redis University:
+                    Introduction to Redis Data Structures</a>
                   <span class="icon is-pulled-right red-color">
                             <i class="fa fa-spinner fa-spin"></i>
                           </span>
