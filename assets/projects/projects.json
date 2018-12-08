@@ -18,7 +18,6 @@
     "images": [
       "/proyectos/devjournal-1.png",
       "/proyectos/devjournal-2.png"
-
     ],
     "tools": "Devjournal es un blog construido mediante el headless CMS Cockpit y un cliente SPA contruido con Nuxt.js"
   },
@@ -44,13 +43,14 @@
   },
   "legion-anime": {
     "title": "Legión Anime",
-    "description": "App Android para ver anime, colaboré para desacoplar y migrar este proyecto a la nube; actualmente también me encuentro trabajando el backend para optimizarlo y poder hacerlo rentable.",
+    "description": "Es una app Android de una comunidad de Anime, colaboro desacoplando y migrando este proyecto a la nube; además de implementar escalamiento horizontal y vertical también me encuentro trabajando el backend para ir agregando funciones y mejoras.",
     "images": [
+      "/proyectos/la_banner.png",
       "/proyectos/la-index.png",
       "/proyectos/la-detail.png",
       "/proyectos/la-logo.png"
     ],
-    "tools": "Android App + API  + Cloud"
+    "tools": "Android App, Laravel Forge, DigitalOcean"
   },
   "comunidad": {
     "title": "ComunidadITCM",

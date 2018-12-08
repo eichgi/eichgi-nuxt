@@ -77,6 +77,10 @@
                 </li>
                 <li>
                   <a href="#">FreeCodeCamp: Backend Development Program</a>
+                  <span class="icon is-pulled-right red-color"></span>
+                </li>
+                <li>
+                  <a href="https://codecourse.com/watch/unit-testing-with-php-unit" target="_blank">Unit testing with PHPUnit</a>
                   <span class="icon is-pulled-right red-color">
                     <i class="fa fa-spinner fa-spin"></i>
                   </span>
@@ -92,54 +96,6 @@
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="card-content">
-            <div class="content">
-              <p class="subtitle">DevOps</p>
-              <ul style="list-style: none">
-                <li>
-                  <a href="https://www.udemy.com/certificate/UC-YIMC2R57/" target="_blank">AWS Concepts</a>
-                  <span class="icon is-pulled-right red-color">
-                    <i class="fa fa-check-circle"></i>
-                  </span>
-                </li>
-                <li>
-                  <a href="https://www.udemy.com/certificate/UC-95XW8KD5/" target="_blank">AWS Essentials</a>
-                  <span class="icon is-pulled-right red-color">
-                    <i class="fa fa-check-circle"></i>
-                  </span>
-                </li>
-                <li>
-                  <a href="https://laracasts.com/series/learn-laravel-forge" target="_blank">Learn Laravel Forge</a>
-                  <span class="icon is-pulled-right red-color">
-                    <i class="fa fa-check-circle"></i>
-                  </span>
-                </li>
-                <li>
-                  <a href="https://geekytheory.com/curso/vagrant" target="_blank">Curso de Vagrant</a>
-                  <span class="icon is-pulled-right red-color">
-                    <i class="fa fa-check-circle"></i>
-                  </span>
-                </li>
-                <li>
-                  <a href="https://bitpress.io/docker-for-php-developers/" target="_blank">Docker for PHP Developers</a>
-                  <span class="icon is-pulled-right red-color">
-                    <i class="fa fa-spinner fa-spin"></i>
-                  </span>
-                </li>
-                <li>
-                  <a href="https://courses.serversforhackers.com/scaling-laravel" target="_blank">Scaling Laravel</a>
-                  <span class="icon is-pulled-right red-color">
-                    <i class="fa fa-spinner fa-spin"></i>
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="column is-half">
         <div class="card">
           <div class="card-content">
             <div class="content">
@@ -186,6 +142,60 @@
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="column is-half">
+        <div class="card">
+          <div class="card-content">
+            <div class="content">
+              <p class="subtitle">DevOps</p>
+              <ul style="list-style: none">
+                <li>
+                  <a href="https://www.udemy.com/certificate/UC-YIMC2R57/" target="_blank">AWS Concepts</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-check-circle"></i>
+                  </span>
+                </li>
+                <li>
+                  <a href="https://www.udemy.com/certificate/UC-95XW8KD5/" target="_blank">AWS Essentials</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-check-circle"></i>
+                  </span>
+                </li>
+                <li>
+                  <a href="https://laracasts.com/series/learn-laravel-forge" target="_blank">Learn Laravel Forge</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-check-circle"></i>
+                  </span>
+                </li>
+                <li>
+                  <a href="https://geekytheory.com/curso/vagrant" target="_blank">Curso de Vagrant</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-check-circle"></i>
+                  </span>
+                </li>
+                <li>
+                  <a href="https://bitpress.io/docker-for-php-developers/" target="_blank">Docker for PHP Developers</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-spinner fa-spin"></i>
+                  </span>
+                </li>
+                <li>
+                  <a href="https://courses.serversforhackers.com/scaling-laravel" target="_blank">Scaling Laravel</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-check-circle"></i>
+                  </span>
+                </li>
+                <li>
+                  <a href="https://www.packtpub.com/mapt/book/application_development/9781787125377" target="_blank">PHP Microservices</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-spinner fa-spin"></i>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div class="card">
           <div class="card-content">
             <div class="content">
@@ -205,9 +215,7 @@
                 </li>
                 <li>
                   <a href="#">Udemy: Wordpress Avanzado - Custom Post Types, Taxonomías y Metaboxes</a>
-                  <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-spinner fa-spin"></i>
-                          </span>
+                  <span class="icon is-pulled-right red-color"></span>
                 </li>
                 <li>
                   <a href="#">ED team: Android avanzado con Firebase</a>
@@ -217,22 +225,20 @@
                 </li>
                 <li>
                   <a href="#">Udemy: Programación de Android desde Cero</a>
-                  <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-spinner fa-spin"></i>
-                          </span>
+                  <span class="icon is-pulled-right red-color"></span>
                 </li>
                 <li>
                   <a href="https://laracasts.com/series/solid-principles-in-php" target="_blank">Laracasts: SOLID
                     Principles in PHP</a>
                   <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-spinner fa-spin"></i>
+                            <i class="fa fa-check-circle"></i>
                           </span>
                 </li>
                 <li>
-                  <a href="https://university.redislabs.com/courses/course-v1:redislabs+RU101+2018_02/about" target="_blank">Redis University:
+                  <a href="https://university.redislabs.com/certificates/a5246a6b06cf41f1b26b8d31cd5fd4bf" target="_blank">Redis University:
                     Introduction to Redis Data Structures</a>
                   <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-spinner fa-spin"></i>
+                            <i class="fa fa-check-circle"></i>
                           </span>
                 </li>
               </ul>
