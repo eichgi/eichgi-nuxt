@@ -35,7 +35,7 @@
               <span class="icon">
                 <i class="fa fa-envelope"></i>
               </span>
-              <span>Contacto</span>
+              <span>Contact</span>
             </nuxt-link>
           </div>
           <nuxt/>

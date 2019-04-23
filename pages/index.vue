@@ -3,24 +3,22 @@
     <div class="card">
       <div class="card-content">
         <div class="content">
-          <p class="">Soy un desarrollador de software enfocado en tecnologías web y móvil. Constantemente estoy
-            aprendiendo y desarrollando proyectos que me impongan retos para poder mejorar y
-            continuar actualizado. Mucho de lo que aprendo lo comparto en mi
-            <a href="https://hoclabs.com/blog" target="_blank">WP Blog</a>,
-            <a href="http://devjournal.eichgi.com" target="_blank">DevJournal Blog</a>, en <a
-              href="https://medium.com/@eichgi" target="_blank">Medium</a> y en <a href="https://dev.to/eichgi"
+          <p>I am a software developer focused on web & mobile technologies. I am constantly learning and developing
+            projects that challenges me in order to improve and update my skills. I blog on <a
+              href="https://hoclabs.com/blog" target="_blank">WP Blog</a>,
+            <a href="http://devjournal.eichgi.com" target="_blank">DevJournal Blog</a>, <a
+              href="https://medium.com/@eichgi" target="_blank">Medium</a> & <a href="https://dev.to/eichgi"
                                                                                    target="_blank">
               <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Hiram's DEV Profile" height="20"
                    width="20"/>
-            </a>.
-          </p>
+            </a>.</p>
         </div>
       </div>
     </div>
     <hr>
     <div class="columns">
       <div class="column is-12">
-        <p class="subtitle">Últimos cursos realizados</p>
+        <p class="subtitle">My latest courses</p>
       </div>
     </div>
     <div class="columns">
@@ -80,7 +78,8 @@
                   <span class="icon is-pulled-right red-color"></span>
                 </li>
                 <li>
-                  <a href="https://codecourse.com/watch/unit-testing-with-php-unit" target="_blank">Unit testing with PHPUnit</a>
+                  <a href="https://codecourse.com/watch/unit-testing-with-php-unit" target="_blank">Unit testing with
+                    PHPUnit</a>
                   <span class="icon is-pulled-right red-color">
                     <i class="fa fa-spinner fa-spin"></i>
                   </span>
@@ -163,6 +162,19 @@
                   </span>
                 </li>
                 <li>
+                  <a href="https://acloud.guru/learn/aws-certified-solutions-architect-associate" target="_blank">AWS
+                    Certified Solutions Architect - Associate</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-spinner fa-spin"></i>
+                  </span>
+                </li>
+                <li>
+                  <a href="https://courses.serversforhackers.com/scaling-laravel" target="_blank">Scaling Laravel</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-check-circle"></i>
+                  </span>
+                </li>
+                <li>
                   <a href="https://laracasts.com/series/learn-laravel-forge" target="_blank">Learn Laravel Forge</a>
                   <span class="icon is-pulled-right red-color">
                     <i class="fa fa-check-circle"></i>
@@ -181,17 +193,19 @@
                   </span>
                 </li>
                 <li>
-                  <a href="https://courses.serversforhackers.com/scaling-laravel" target="_blank">Scaling Laravel</a>
-                  <span class="icon is-pulled-right red-color">
-                    <i class="fa fa-check-circle"></i>
-                  </span>
-                </li>
-                <li>
-                  <a href="https://www.packtpub.com/mapt/book/application_development/9781787125377" target="_blank">PHP Microservices</a>
+                  <a href="https://acloud.guru/learn/intro-ansible" target="_blank">Introduction
+                    to Ansible</a>
                   <span class="icon is-pulled-right red-color">
                     <i class="fa fa-spinner fa-spin"></i>
                   </span>
                 </li>
+                <!--<li>
+                  <a href="https://www.packtpub.com/mapt/book/application_development/9781787125377" target="_blank">PHP
+                    Microservices</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-spinner fa-spin"></i>
+                  </span>
+                </li>-->
               </ul>
             </div>
           </div>
@@ -235,10 +249,18 @@
                           </span>
                 </li>
                 <li>
-                  <a href="https://university.redislabs.com/certificates/a5246a6b06cf41f1b26b8d31cd5fd4bf" target="_blank">Redis University:
+                  <a href="https://university.redislabs.com/certificates/a5246a6b06cf41f1b26b8d31cd5fd4bf"
+                     target="_blank">Redis University:
                     Introduction to Redis Data Structures</a>
                   <span class="icon is-pulled-right red-color">
                             <i class="fa fa-check-circle"></i>
+                          </span>
+                </li>
+                <li>
+                  <a href="https://university.redislabs.com/courses/course-v1:redislabs+RU202+2018_01/about"
+                     target="_blank">Redis University: Redis Streams</a>
+                  <span class="icon is-pulled-right red-color">
+                            <i class="fa fa-spinner fa-spin"></i>
                           </span>
                 </li>
               </ul>

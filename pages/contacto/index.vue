@@ -3,10 +3,14 @@
     <div class="card">
       <div class="card-content">
         <div class="content">
-          <p class="subtitle">¿Tienes alguna propuesta de trabajo?</p>
+          <p class="subtitle">Interested on my services? | ¿Tienes alguna propuesta de trabajo?</p>
+          <p>I have worked with some groups and companies so far. I am always interested to be part in commercial &
+            open source projects. If you need help to start or continue with your project don't hesitate to reach me
+            by filling the next form:</p>
+          <hr>
           <p>He colaborado con varias grupos y empresas, y siempre estoy interesado en participar en proyectos
-            comerciales y open source. Si necesitas ayuda
-            para iniciar o continuar un proyecto no dudes en contactarme llenando el siguiente formulario:</p>
+            comerciales y open source. Si necesitas ayuda para iniciar o continuar un proyecto no dudes en contactarme
+            llenando el siguiente formulario:</p>
         </div>
       </div>
     </div>
@@ -14,24 +18,24 @@
     <div class="columns">
       <div class="column is-12">
         <div class="field">
-          <label class="label">Nombre</label>
+          <label class="label">Tu nombre / Your name</label>
           <div class="control">
             <input class="input" type="text" v-model="name">
           </div>
         </div>
         <div class="field">
-          <label class="label">Correo</label>
+          <label class="label">Tu correo / Your email</label>
           <div class="control">
             <input class="input" type="email" v-model="email">
           </div>
         </div>
         <div class="field">
-          <label class="label">Mensaje</label>
+          <label class="label">Tu mensaje / Your message</label>
           <div class="control">
             <textarea class="textarea" v-model="message"></textarea>
           </div>
         </div>
-        <button class="button is-dark is-fullwidth mar-top" @click="sendMail">Enviar</button>
+        <button class="button is-dark is-fullwidth mar-top" @click="sendMail">Enviar / Send</button>
       </div>
     </div>
   </div>
@@ -78,10 +82,10 @@
         return this.name.trim() !== '' && this.email.trim() !== '' && this.message.trim() !== '';
       },
       emailSent() {
-        alert('Tu correo fue enviado exitosamente');
+        alert('Tu correo fue enviado exitosamente. / Your email was succesfully sent.');
       },
       emailError() {
-        alert('Ocurrió un problema al enviar tu correo, por favor intentalo de nuevo');
+        alert("Ocurrió un problema al enviar tu correo, por favor intentalo de nuevo. / A problem has ocurred, please try again.");
       },
       clearForm() {
         this.name = this.email = this.message = '';

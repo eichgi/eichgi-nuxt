@@ -1,6 +1,6 @@
 <template>
   <div class="column is-9" style="min-height: 85vh;">
-    <p class="quote">Aprender para compartir, compartir para seguir aprendiendo.</p>
+    <p class="quote">Learning for sharing, sharing to continue learning.</p>
     <!--<div v-show="this.postsChunked.length === 0">-->
     <div v-show="showLoading">
       <p class="subtitle has-text-centered">Cargando...</p>

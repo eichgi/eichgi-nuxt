@@ -5,7 +5,7 @@
         <div class="card">
           <header class="card-header">
             <p class="card-header-title">
-              A que le muevo?
+              What do I do?
             </p>
             <a href="#" class="card-header-icon" aria-label="more options">
               <span class="icon">
@@ -15,12 +15,12 @@
           </header>
           <div class="card-content">
             <div class="content">
-              Soy desarrollador Full Stack y me gusta participar en proyectos multiplataforma. Tengo experiencia en:
+              I am a Full stack dev and Devops learner. I have experience with:
               <ul>
-                <li>Creación de interfaces</li>
-                <li>Diseño y creación de bases de datos</li>
-                <li>Construcción e integración de APIs propias y de terceros</li>
-                <li>Creación, despliegue y administración de entornos de desarrollo y producción</li>
+                <li>Implementation of UI/UX</li>
+                <li>Database design and modeling</li>
+                <li>API construction and integration</li>
+                <li>Management and deployment of staging and production environments</li>
               </ul>
             </div>
           </div>
@@ -30,7 +30,7 @@
         <div class="card">
           <header class="card-header">
             <p class="card-header-title">
-              Principales herramientas de trabajo
+              Main work tools
             </p>
             <a href="#" class="card-header-icon" aria-label="more options">
               <span class="icon">
@@ -40,6 +40,19 @@
           </header>
           <div class="card-content">
             <div class="content">
+              <div class="columns">
+                <div class="column is-third">
+                  <img class="image is-96x96" src="@/assets/images/logos/cloud.png" alt="Cloud">
+                </div>
+                <div class="column is-third">
+                  <img class="image is-96x96" src="@/assets/images/logos/laravel.png" alt="Laravel">
+                </div>
+                <div class="column is-third">
+                  <img class="image is-96x96" src="@/assets/images/logos/vue.png" alt="Vue">
+                </div>
+              </div>
+            </div>
+            <!--<div class="content">
               <div class="columns">
                 <div class="column is-half">
                   <img class="image" src="@/assets/images/logos/lamp.png" alt="Lamp">
@@ -56,7 +69,7 @@
                   <img class="image is-96x96" src="@/assets/images/logos/android_studio.png" alt="Android Studio">
                 </div>
               </div>
-            </div>
+            </div>-->
           </div>
         </div>
       </div>
@@ -65,7 +78,7 @@
     <div class="columns">
       <div class="column is-12">
         <p class="subtitle">Side Projects</p>
-        <p>Estos son algunos proyectos personales que he lanzado y/o colaborado, de los cuáles he aprendido mucho.</p>
+        <p>These are some personal projects I have launched or collaborated:</p>
       </div>
     </div>
     <div class="columns">
