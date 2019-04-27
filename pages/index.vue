@@ -196,7 +196,7 @@
                   <a href="https://acloud.guru/learn/intro-ansible" target="_blank">Introduction
                     to Ansible</a>
                   <span class="icon is-pulled-right red-color">
-                    <i class="fa fa-spinner fa-spin"></i>
+                    <i class="fa fa-check-circle"></i>
                   </span>
                 </li>
                 <!--<li>
