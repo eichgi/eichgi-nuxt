@@ -8,7 +8,7 @@
               href="https://hoclabs.com/blog" target="_blank">WP Blog</a>,
             <a href="http://devjournal.eichgi.com" target="_blank">DevJournal Blog</a>, <a
               href="https://medium.com/@eichgi" target="_blank">Medium</a> & <a href="https://dev.to/eichgi"
-                                                                                   target="_blank">
+                                                                                target="_blank">
               <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Hiram's DEV Profile" height="20"
                    width="20"/>
             </a>.</p>
@@ -137,6 +137,12 @@
                             <i class="fa fa-check-circle"></i>
                           </span>
                 </li>
+                <li>
+                  <a href="https://www.udemy.com/react-the-complete-guide-incl-redux">React - The Complete Guide</a>
+                  <span class="icon is-pulled-right red-color">
+                            <i class="fa fa-spinner fa-spin"></i>
+                          </span>
+                </li>
               </ul>
             </div>
           </div>
@@ -254,13 +260,6 @@
                     Introduction to Redis Data Structures</a>
                   <span class="icon is-pulled-right red-color">
                             <i class="fa fa-check-circle"></i>
-                          </span>
-                </li>
-                <li>
-                  <a href="https://university.redislabs.com/courses/course-v1:redislabs+RU202+2018_01/about"
-                     target="_blank">Redis University: Redis Streams</a>
-                  <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-spinner fa-spin"></i>
                           </span>
                 </li>
               </ul>

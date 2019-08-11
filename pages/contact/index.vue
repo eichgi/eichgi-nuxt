@@ -3,7 +3,7 @@
     <div class="card">
       <div class="card-content">
         <div class="content">
-          <p class="subtitle">Interested on my services? | ¿Tienes alguna propuesta de trabajo?</p>
+          <p class="subtitle">Are you interested in my services? | ¿Tienes alguna propuesta de trabajo?</p>
           <p>I have worked with some groups and companies so far. I am always interested to be part in commercial &
             open source projects. If you need help to start or continue with your project don't hesitate to reach me
             by filling the next form:</p>

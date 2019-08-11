@@ -20,9 +20,9 @@
           <i class="fa fa-rss"></i> &nbsp;
           Blog
         </nuxt-link>
-        <nuxt-link to="/portafolio" class="navbar-item" active-class="is-active">
+        <nuxt-link to="/portfolio" class="navbar-item" active-class="is-active">
           <i class="fa fa-code"></i> &nbsp;
-          Portafolio
+          Portfolio
         </nuxt-link>
       </div>
     </div>

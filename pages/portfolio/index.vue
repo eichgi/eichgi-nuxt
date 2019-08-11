@@ -121,7 +121,7 @@
   import {swiper, swiperSlide} from 'vue-awesome-swiper'
 
   export default {
-    name: 'portafolio',
+    name: 'portfolio',
     data() {
       return {
         swiperOption: {
@@ -147,7 +147,7 @@
     },
     methods: {
       goProject(id) {
-        this.$router.push(`/portafolio/${id}`);
+        this.$router.push(`/portfolio/${id}`);
       }
     }
   }

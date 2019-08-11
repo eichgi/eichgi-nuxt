@@ -31,7 +31,7 @@
               </span>
               <span>LinkedIn</span>
             </a>
-            <nuxt-link to="/contacto" class="button is-dark message-button">
+            <nuxt-link to="/contact" class="button is-dark message-button">
               <span class="icon">
                 <i class="fa fa-envelope"></i>
               </span>
