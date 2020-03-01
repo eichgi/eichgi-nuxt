@@ -51,7 +51,7 @@
 
   export default {
     created() {
-      console.log(this.$route.path);
+
     },
     components: {
       navbar,

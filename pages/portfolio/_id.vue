@@ -6,7 +6,7 @@
     <p class="subtitle">Screenshots</p>
     <swiper :options="swiperOption" ref="mySwiper">
       <!-- slides -->
-      <swiper-slide v-for="(image, index) in project.images">
+      <swiper-slide v-for="(image, index) in project.images" :key="index">
         <img :src="image" width="100%">
       </swiper-slide>
       <!-- Optional controls -->
@@ -58,7 +58,6 @@
     methods: {
       getProject(id) {
         this.project = projects[id];
-        console.log(this.project.images);
       }
     }
   }

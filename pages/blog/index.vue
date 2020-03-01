@@ -31,10 +31,10 @@
       </div>
       <div class="columns">
         <div class="column is-half">
-          <PostCard v-for="post in posts" :post="post"/>
+          <PostCard v-for="(post, index) in posts" :key="index" :post="post"/>
         </div>
         <div class="column is-half">
-          <entry :post="entry" v-for="entry in journalPosts"/>
+          <entry :post="entry" v-for="(entry, index) in journalPosts" :key="index"/>
         </div>
       </div>
     </div>

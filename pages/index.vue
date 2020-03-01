@@ -29,49 +29,57 @@
               <p class="subtitle">Backend</p>
               <ul style="list-style: none">
                 <li>
-                  <a href="https://www.udemy.com/certificate/UC-M22JPR5Y/" target="_blank">Udemy: Git y Github
+                  <a href="https://www.udemy.com/certificate/UC-M22JPR5Y/" target="_blank">Git y Github
                     desde 0</a>
                   <span class="icon is-pulled-right red-color">
                             <i class="fa fa-check-circle"></i>
                           </span>
                 </li>
                 <li>
-                  <a href="#">ED team: Node JS Desde 0</a>
+                  <a href="#">Node JS Desde 0</a>
                   <span class="icon is-pulled-right red-color">
                             <i class="fa fa-check-circle"></i>
                           </span>
                 </li>
                 <li>
-                  <a href="#">CódigoFacilito: Desarrollo de Tienda en Línea con Laravel y PHP</a>
-                  <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-check-circle"></i>
-                          </span>
-                </li>
-                <li>
-                  <a href="#">Udemy: PHP7 Desde básico hasta desarrollar un software de venta</a>
-                  <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-check-circle"></i>
-                          </span>
-                </li>
-                <li>
-                  <a href="#">Udemy: API RESTful con Laravel 5.4: Guía Definitiva</a>
-                  <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-spinner fa-spin"></i>
-                          </span>
-                </li>
-                <li>
-                  <a href="https://www.udemy.com/certificate/UC-ZO911HBM/" target="_blank">Udemy: The Complete
+                  <a href="https://www.udemy.com/certificate/UC-ZO911HBM/" target="_blank">The Complete
                     Node JS Developer Course</a>
                   <span class="icon is-pulled-right red-color">
                             <i class="fa fa-check-circle"></i>
                           </span>
                 </li>
                 <li>
-                  <a href="https://www.udemy.com/certificate/UC-LKG6SYX2/" target="_blank">Udemy: PHP with
+                  <a href="#">Desarrollo de Tienda en Línea con Laravel y PHP</a>
+                  <span class="icon is-pulled-right red-color">
+                            <i class="fa fa-check-circle"></i>
+                          </span>
+                </li>
+                <li>
+                  <a href="#">PHP7 Desde básico hasta desarrollar un software de venta</a>
+                  <span class="icon is-pulled-right red-color">
+                            <i class="fa fa-check-circle"></i>
+                          </span>
+                </li>
+                <li>
+                  <a href="https://www.udemy.com/certificate/UC-LKG6SYX2/" target="_blank">PHP with
                     Laravel for beginners - Become a Master in Laravel</a>
                   <span class="icon is-pulled-right red-color">
                     <i class="fa fa-check-circle"></i>
                   </span>
+                </li>
+                <li>
+                  <a href="https://www.udemy.com/certificate/UC-7d49c20a-5df3-44cf-9102-9174e0de547e/" target="_blank">Laravel
+                    &
+                    Realtime: Build Several Realtime Apps with Laravel</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-check-circle"></i>
+                  </span>
+                </li>
+                <li>
+                  <a href="#">API RESTful con Laravel 5.4: Guía Definitiva</a>
+                  <span class="icon is-pulled-right red-color">
+                            <i class="fa fa-spinner fa-spin"></i>
+                          </span>
                 </li>
                 <li>
                   <a href="#">FreeCodeCamp: Backend Development Program</a>
@@ -80,6 +88,13 @@
                 <li>
                   <a href="https://codecourse.com/watch/unit-testing-with-php-unit" target="_blank">Unit testing with
                     PHPUnit</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-spinner fa-spin"></i>
+                  </span>
+                </li>
+                <li>
+                  <a href="https://confidentlaravel.com/" target="_blank">Confident Laravel:
+                    Laravel Testing + PHPUnit</a>
                   <span class="icon is-pulled-right red-color">
                     <i class="fa fa-spinner fa-spin"></i>
                   </span>
@@ -107,13 +122,13 @@
                           </span>
                 </li>
                 <li>
-                  <a href="#">ED team: CSS Desde 0</a>
+                  <a href="#">CSS Desde 0</a>
                   <span class="icon is-pulled-right red-color">
                             <i class="fa fa-check-circle"></i>
                           </span>
                 </li>
                 <li>
-                  <a href="#">CodeSchool: Javascript Roadtrip</a>
+                  <a href="#">Javascript Roadtrip</a>
                   <span class="icon is-pulled-right red-color">
                             <i class="fa fa-check-circle"></i>
                           </span>
@@ -169,7 +184,7 @@
                 </li>
                 <li>
                   <a href="https://acloud.guru/learn/aws-certified-solutions-architect-associate" target="_blank">AWS
-                    Certified Solutions Architect - Associate</a>
+                    Certified Solutions Architect</a>
                   <span class="icon is-pulled-right red-color">
                     <i class="fa fa-spinner fa-spin"></i>
                   </span>
@@ -190,6 +205,12 @@
                   <a href="https://geekytheory.com/curso/vagrant" target="_blank">Curso de Vagrant</a>
                   <span class="icon is-pulled-right red-color">
                     <i class="fa fa-check-circle"></i>
+                  </span>
+                </li>
+                <li>
+                  <a href="https://serversforhackers.com/shipping-docker" target="_blank">Shipping Docker</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-spinner fa-spin"></i>
                   </span>
                 </li>
                 <li>
@@ -222,7 +243,7 @@
               <p class="subtitle">Misc</p>
               <ul style="list-style: none">
                 <li>
-                  <a href="https://www.udemy.com/certificate/UC-ADETGY5K/">Udemy: Aprende Wordpress</a>
+                  <a href="https://www.udemy.com/certificate/UC-ADETGY5K/">Aprende Wordpress</a>
                   <span class="icon is-pulled-right red-color">
                             <i class="fa fa-check-circle"></i>
                           </span>
@@ -234,33 +255,32 @@
                           </span>
                 </li>
                 <li>
-                  <a href="#">Udemy: Wordpress Avanzado - Custom Post Types, Taxonomías y Metaboxes</a>
+                  <a href="#">Wordpress Avanzado - Custom Post Types, Taxonomías y Metaboxes</a>
                   <span class="icon is-pulled-right red-color"></span>
                 </li>
                 <li>
-                  <a href="#">ED team: Android avanzado con Firebase</a>
+                  <a href="#">Android avanzado con Firebase</a>
                   <span class="icon is-pulled-right red-color">
                             <i class="fa fa-check-circle"></i>
                           </span>
                 </li>
                 <li>
-                  <a href="#">Udemy: Programación de Android desde Cero</a>
+                  <a href="#">Programación de Android desde Cero</a>
                   <span class="icon is-pulled-right red-color"></span>
                 </li>
                 <li>
-                  <a href="https://laracasts.com/series/solid-principles-in-php" target="_blank">Laracasts: SOLID
+                  <a href="https://laracasts.com/series/solid-principles-in-php" target="_blank">SOLID
                     Principles in PHP</a>
                   <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-check-circle"></i>
-                          </span>
+                    <i class="fa fa-check-circle"></i>
+                  </span>
                 </li>
                 <li>
                   <a href="https://university.redislabs.com/certificates/a5246a6b06cf41f1b26b8d31cd5fd4bf"
-                     target="_blank">Redis University:
-                    Introduction to Redis Data Structures</a>
+                     target="_blank">Redis University: Introduction to Redis Data Structures</a>
                   <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-check-circle"></i>
-                          </span>
+                    <i class="fa fa-check-circle"></i>
+                  </span>
                 </li>
               </ul>
             </div>

@@ -20,7 +20,7 @@
 <script>
   export default {
     mounted() {
-      console.log(this.post);
+
     },
     name: "entry",
     props: ['post'],
