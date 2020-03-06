@@ -106,6 +106,12 @@
                     <i class="fa fa-spinner fa-spin"></i>
                   </span>
                 </li>
+                <li>
+                  <a href="https://serverlesslaravelcourse.com/" target="_blank">Serverless Laravel (Laravel Vapor)</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-spinner fa-spin"></i>
+                  </span>
+                </li>
               </ul>
             </div>
           </div>
