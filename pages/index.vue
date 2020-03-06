@@ -140,10 +140,10 @@
                           </span>
                 </li>
                 <li>
-                  <a href="#">Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)</a>
+                  <a href="#">Vue JS 2 - The Complete Guide</a>
                   <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-spinner fa-spin"></i>
-                          </span>
+                    <i class="fa fa-check-circle"></i>
+                  </span>
                 </li>
                 <li>
                   <a href="#">Nuxt.js - Vue.js on Steroids</a>
@@ -203,6 +203,12 @@
                 </li>
                 <li>
                   <a href="https://laracasts.com/series/learn-laravel-forge" target="_blank">Learn Laravel Forge</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-check-circle"></i>
+                  </span>
+                </li>
+                <li>
+                  <a href="https://laracasts.com/series/envoyer" target="_blank">Laravel Envoyer</a>
                   <span class="icon is-pulled-right red-color">
                     <i class="fa fa-check-circle"></i>
                   </span>

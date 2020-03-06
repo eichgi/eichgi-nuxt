@@ -21,24 +21,24 @@
           <input type="hidden" name="_subject" value="New message from eichgi.com">
           <input type="text" name="_honey" style="display:none">
           <div class="field">
-            <label class="label">Tu nombre / Your name</label>
+            <label class="label">Name / Nombre</label>
             <div class="control">
               <input class="input" type="text" name="name" required>
             </div>
           </div>
           <div class="field">
-            <label class="label">Tu correo / Your email</label>
+            <label class="label">Email / Correo</label>
             <div class="control">
               <input class="input" type="email" name="email" required>
             </div>
           </div>
           <div class="field">
-            <label class="label">Tu mensaje / Your message</label>
+            <label class="label">Message / Mensaje</label>
             <div class="control">
               <textarea class="textarea" name="message" required></textarea>
             </div>
           </div>
-          <button class="button is-dark is-fullwidth mar-top">Enviar / Send</button>
+          <button class="button is-dark is-fullwidth mar-top">Send (Enviar)</button>
         </form>
       </div>
     </div>
