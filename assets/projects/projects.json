@@ -43,7 +43,8 @@
   },
   "legion-anime": {
     "title": "Legión Anime",
-    "description": "Es una app Android de una comunidad de Anime, colaboro desacoplando y migrando este proyecto a la nube; además de implementar escalamiento horizontal y vertical también me encuentro trabajando el backend para ir agregando funciones y mejoras.",
+    "old-description": "Es una app Android de una comunidad de Anime, colaboro desacoplando y migrando este proyecto a la nube; además de implementar escalamiento horizontal y vertical también me encuentro trabajando el backend para ir agregando funciones y mejoras.",
+    "description": "Multiplatform app which serves 1M+ daily requests. Vertical and horizontal scaling, MySQL HA, Redis Clusters and more it's the fun we continue building!",
     "images": [
       "/proyectos/la_banner.png",
       "/proyectos/la-index.png",
@@ -54,13 +55,15 @@
   },
   "comunidad": {
     "title": "ComunidadITCM",
-    "description": "Comunidad ITCM es una plataforma libre y gratuita para los estudiantes del tec de madero. Fue planeada para servir como guía y referencia para todos aquellos que deseen participar en el proyecto. No esta regulada por ninguna autoridad, solo por alumnos de la misma institución. Es un plataforma que busca mejorar constantemente y sin fines de lucro, además ha sido liberada con una licencia Apache 2.0 para que cualquier persona pueda ver o modificar el proyecto.",
+    "old-description": "Comunidad ITCM es una plataforma libre y gratuita para los estudiantes del tec de madero. Fue planeada para servir como guía y referencia para todos aquellos que deseen participar en el proyecto. No esta regulada por ninguna autoridad, solo por alumnos de la misma institución. Es un plataforma que busca mejorar constantemente y sin fines de lucro, además ha sido liberada con una licencia Apache 2.0 para que cualquier persona pueda ver o modificar el proyecto.",
+    "description": "Comunidad ITCM was a platform for my College.",
     "images": [
       "/proyectos/comunidad_1.jpg",
       "/proyectos/comunidad_2.jpg",
       "/proyectos/comunidad_3.jpg"
     ],
-    "tools": "Para el frontend se utilizó una versión combinada de la libreria Bootstrap con Material Design Lite, además de jQuery. Para el backend se utilizó PHP como lenguaje servidor y MySQL para persistencia de datos. Además también se utilizaron las librerias bootboxjs, JasnyBootstrap y el sistema de notificaciones push One Signal."
+    "old-tools": "Para el frontend se utilizó una versión combinada de la libreria Bootstrap con Material Design Lite, además de jQuery. Para el backend se utilizó PHP como lenguaje servidor y MySQL para persistencia de datos. Además también se utilizaron las librerias bootboxjs, JasnyBootstrap y el sistema de notificaciones push One Signal.",
+    "tools": "Bootstrap w Material design and PHP/MySQL. My first launching and failure!"
   },
   "eichgi": {
     "title": "Eichgi Site",

@@ -4,7 +4,7 @@
       <div class="card-content">
         <div class="content">
           <p>I am a software developer focused on web & mobile technologies. I am constantly learning and developing
-            projects that challenges me in order to improve and update my skills. I blog on <a
+            projects that challenges me in order to improve and sharp my skills. I blog on <a
               href="https://hoclabs.com/blog" target="_blank">WP Blog</a>,
             <a href="http://devjournal.eichgi.com" target="_blank">DevJournal Blog</a>, <a
               href="https://medium.com/@eichgi" target="_blank">Medium</a> & <a href="https://dev.to/eichgi"
@@ -36,10 +36,10 @@
                           </span>
                 </li>
                 <li>
-                  <a href="#">Node JS Desde 0</a>
+                  <a href="#">NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)</a>
                   <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-check-circle"></i>
-                          </span>
+                    <i class="fa fa-spin fa-spinner"></i>
+                  </span>
                 </li>
                 <li>
                   <a href="https://www.udemy.com/certificate/UC-ZO911HBM/" target="_blank">The Complete
@@ -49,13 +49,11 @@
                           </span>
                 </li>
                 <li>
-                  <a href="#">Desarrollo de Tienda en Línea con Laravel y PHP</a>
-                  <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-check-circle"></i>
-                          </span>
+                  <a href="#">FreeCodeCamp: Backend Development Program</a>
+                  <span class="icon is-pulled-right red-color"></span>
                 </li>
                 <li>
-                  <a href="#">PHP7 Desde básico hasta desarrollar un software de venta</a>
+                  <a href="#">Desarrollo de Tienda en Línea con Laravel y PHP</a>
                   <span class="icon is-pulled-right red-color">
                             <i class="fa fa-check-circle"></i>
                           </span>
@@ -73,23 +71,6 @@
                     Realtime: Build Several Realtime Apps with Laravel</a>
                   <span class="icon is-pulled-right red-color">
                     <i class="fa fa-check-circle"></i>
-                  </span>
-                </li>
-                <li>
-                  <a href="#">API RESTful con Laravel 5.4: Guía Definitiva</a>
-                  <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-spinner fa-spin"></i>
-                          </span>
-                </li>
-                <li>
-                  <a href="#">FreeCodeCamp: Backend Development Program</a>
-                  <span class="icon is-pulled-right red-color"></span>
-                </li>
-                <li>
-                  <a href="https://codecourse.com/watch/unit-testing-with-php-unit" target="_blank">Unit testing with
-                    PHPUnit</a>
-                  <span class="icon is-pulled-right red-color">
-                    <i class="fa fa-spinner fa-spin"></i>
                   </span>
                 </li>
                 <li>
@@ -163,6 +144,13 @@
                   <span class="icon is-pulled-right red-color">
                             <i class="fa fa-spinner fa-spin"></i>
                           </span>
+                </li>
+                <li>
+                  <a href="https://www.udemy.com/react-the-complete-guide-incl-redux">React - La Guía Completa: Hooks
+                    Context Redux MERN +15 Apps</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-check-circle"></i>
+                  </span>
                 </li>
               </ul>
             </div>
@@ -255,22 +243,6 @@
               <p class="subtitle">Misc</p>
               <ul style="list-style: none">
                 <li>
-                  <a href="https://www.udemy.com/certificate/UC-ADETGY5K/">Aprende Wordpress</a>
-                  <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-check-circle"></i>
-                          </span>
-                </li>
-                <li>
-                  <a href="#">CodeSchool: The sequel to SQL</a>
-                  <span class="icon is-pulled-right red-color">
-                            <i class="fa fa-check-circle"></i>
-                          </span>
-                </li>
-                <li>
-                  <a href="#">Wordpress Avanzado - Custom Post Types, Taxonomías y Metaboxes</a>
-                  <span class="icon is-pulled-right red-color"></span>
-                </li>
-                <li>
                   <a href="#">Android avanzado con Firebase</a>
                   <span class="icon is-pulled-right red-color">
                             <i class="fa fa-check-circle"></i>
@@ -294,6 +266,13 @@
                     <i class="fa fa-check-circle"></i>
                   </span>
                 </li>
+                <li>
+                  <a href="https://university.redislabs.com/certificates/a5246a6b06cf41f1b26b8d31cd5fd4bf"
+                     target="_blank">Redis University: Redis Security</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-spin fa-spinner"></i>
+                  </span>
+                </li>
               </ul>
             </div>
           </div>
@@ -305,10 +284,10 @@
 
 <script>
 
-  export default {
-    name: "index",
-    layout: 'custom',
-  }
+export default {
+  name: "index",
+  layout: 'custom',
+}
 </script>
 
 <style scoped>

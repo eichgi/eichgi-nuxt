@@ -42,13 +42,18 @@
             <div class="content">
               <div class="columns">
                 <div class="column is-third">
-                  <img class="image is-96x96" src="@/assets/images/logos/cloud.png" alt="Cloud">
-                </div>
-                <div class="column is-third">
                   <img class="image is-96x96" src="@/assets/images/logos/laravel.png" alt="Laravel">
                 </div>
                 <div class="column is-third">
                   <img class="image is-96x96" src="@/assets/images/logos/vue.png" alt="Vue">
+                </div>
+                <div class="column is-third">
+                  <img class="image is-96x96" src="@/assets/images/logos/react.png" alt="React">
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column is-third">
+                  <img class="image is-96x96" src="@/assets/images/logos/cloud.png" alt="Cloud">
                 </div>
               </div>
             </div>
@@ -85,27 +90,27 @@
       <div class="column is-12">
         <swiper :options="swiperOption" ref="mySwiper">
           <!-- slides -->
-          <swiper-slide>
+          <!--<swiper-slide>
             <img src="/proyectos/sx-1.png" alt="" width="100%" @click="goProject('simplex')">
-          </swiper-slide>
+          </swiper-slide>-->
           <swiper-slide>
             <img src="/proyectos/devjournal-1.png" alt="" width="100%" @click="goProject('devjournal')">
           </swiper-slide>
-          <swiper-slide>
+          <!--<swiper-slide>
             <img src="/proyectos/rovix.png" alt="" width="100%" @click="goProject('rovix')">
           </swiper-slide>
           <swiper-slide>
             <img src="/proyectos/alemanisch.jpg" alt="" width="100%" @click="goProject('alemanisch')">
-          </swiper-slide>
+          </swiper-slide>-->
           <swiper-slide>
             <img src="/proyectos/la-logo.png" alt="" width="100%" @click="goProject('legion-anime')">
           </swiper-slide>
           <swiper-slide>
             <img src="/proyectos/comunidad.jpg" alt="" width="100%" @click="goProject('comunidad')">
           </swiper-slide>
-          <swiper-slide>
+          <!--<swiper-slide>
             <img src="/proyectos/eichgi.png" alt="" width="100%" @click="goProject('eichgi')">
-          </swiper-slide>
+          </swiper-slide>-->
           <!-- Optional controls -->
           <div class="swiper-pagination" slot="pagination"></div>
           <div class="swiper-button-prev" slot="button-prev"></div>
@@ -117,65 +122,65 @@
 </template>
 
 <script>
-  import 'swiper/dist/css/swiper.css'
-  import {swiper, swiperSlide} from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
+import {swiper, swiperSlide} from 'vue-awesome-swiper'
 
-  export default {
-    name: 'portfolio',
-    data() {
-      return {
-        swiperOption: {
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
-          },
-          autoplay: {
-            delay: 5000,
-          },
-        }
-      }
-    },
-    computed: {
-      swiper() {
-        return this.$refs.mySwiper.swiper;
-      }
-    },
-    layout: 'custom',
-    components: {
-      swiper,
-      swiperSlide
-    },
-    methods: {
-      goProject(id) {
-        this.$router.push(`/portfolio/${id}`);
+export default {
+  name: 'portfolio',
+  data() {
+    return {
+      swiperOption: {
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        },
+        autoplay: {
+          delay: 5000,
+        },
       }
     }
+  },
+  computed: {
+    swiper() {
+      return this.$refs.mySwiper.swiper;
+    }
+  },
+  layout: 'custom',
+  components: {
+    swiper,
+    swiperSlide
+  },
+  methods: {
+    goProject(id) {
+      this.$router.push(`/portfolio/${id}`);
+    }
   }
+}
 </script>
 
 <style scoped>
 
-  .image {
-    margin: 0 auto;
-  }
+.image {
+  margin: 0 auto;
+}
 
-  ul {
-    list-style: none;
-    padding: 0;
-    margin-left: 0;
-  }
+ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 0;
+}
 
-  li {
-    padding-left: 1.3em;
-    border-bottom: none;
-  }
+li {
+  padding-left: 1.3em;
+  border-bottom: none;
+}
 
-  li:before {
-    content: "\f105";
-    font-family: 'FontAwesome';
-    font-weight: bold;
-    display: inline-block;
-    margin-left: -1.3em;
-    width: 1.3em;
-  }
+li:before {
+  content: "\f105";
+  font-family: 'FontAwesome';
+  font-weight: bold;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+}
 </style>

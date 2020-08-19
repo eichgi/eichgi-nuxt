@@ -13,7 +13,7 @@
           </div>-->
           <div :class="[path != '/' ? 'is-hidden-touch' : '', 'column is-3 has-text-centered border-right']">
             <div class="image">
-              <img src="~/assets/images/me.jpg">
+              <img src="~/assets/images/me.jpeg">
             </div>
             <h1 class="title" style="margin-top: 1em">
               Hiram Guerrero
