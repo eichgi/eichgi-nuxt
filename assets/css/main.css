@@ -1,12 +1,14 @@
 body {
   font-family: 'Merriweather Sans', sans-serif !important;
-  background: url('/assets/images/diamonds-bg.jpg');
+  /*background: url('/assets/images/diamonds-bg.jpg');*/
 }
 
 #main-container {
   max-width: 1400px;
   margin: 0 auto;
-  background: white;
+  background: snow;
+  border-left: 1px solid #363636;
+  border-right: 1px solid #363636;
 }
 
 .title, .subtitle, a {

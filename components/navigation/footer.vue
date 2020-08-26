@@ -18,8 +18,9 @@
 
 <style scoped>
   footer {
+    border-top: #eee;
     padding: 1em;
     /*margin-top: 2em;*/
-    background: #EEE;
+    background: snow;
   }
 </style>
