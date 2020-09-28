@@ -29,9 +29,10 @@
               <p class="subtitle">Backend</p>
               <ul style="list-style: none">
                 <li style="font-weight: bold;">
-                  <a href="#">NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)</a>
+                  <a href="https://www.udemy.com/certificate/UC-4e86e964-ae70-4960-be4f-c9f14dbddefe/" target="_blank">NodeJS
+                    - The Complete Guide (MVC, REST APIs, GraphQL, Deno)</a>
                   <span class="icon is-pulled-right red-color">
-                    <i class="fa fa-spin fa-spinner"></i>
+                    <i class="fa fa-check-circle"></i>
                   </span>
                 </li>
                 <li style="font-weight: bold;">
@@ -255,7 +256,7 @@
                   <a href="https://university.redislabs.com/certificates/a5246a6b06cf41f1b26b8d31cd5fd4bf"
                      target="_blank">Redis University: Redis Security</a>
                   <span class="icon is-pulled-right red-color">
-                    <i class="fa fa-spin fa-spinner"></i>
+                    <i class="fa fa-check-circle"></i>
                   </span>
                 </li>
                 <li>
