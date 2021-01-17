@@ -104,6 +104,13 @@
               <p class="subtitle">Frontend</p>
               <ul style="list-style: none">
                 <li style="font-weight: bold">
+                  <a href="https://www.udemy.com/certificate/UC-f343ef5e-8d1a-4058-bdd8-8a5e408f9e17/" target="_blank">React
+                    Avanzado: Fullstack Next.js, Apollo, MongoDB y GraphQL</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-check-circle"></i>
+                  </span>
+                </li>
+                <li style="font-weight: bold">
                   <a href="https://www.udemy.com/certificate/UC-3770cbed-357a-4667-b34b-cf08ff694e3d/" target="_blank">React
                     - La Guía Completa: Hooks Context Redux MERN +15 Apps</a>
                   <span class="icon is-pulled-right red-color">
