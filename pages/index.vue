@@ -75,6 +75,13 @@
                   </span>
                 </li>
                 <li>
+                  <a href="#" target="_blank">Wizeline Go
+                    Bootcamp</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-spinner fa-spin"></i>
+                  </span>
+                </li>
+                <li>
                   <a href="https://aprendible.com/series/red-social-laravel-tdd" target="_blank">Construyendo una red
                     social con Laravel & TDD</a>
                   <span class="icon is-pulled-right red-color">
@@ -87,13 +94,13 @@
                     <i class="fa fa-spinner fa-spin"></i>
                   </span>
                 </li>
-                <li>
-                  <a href="https://www.udemy.com/certificate/UC-M22JPR5Y/" target="_blank">Git y Github
-                    desde 0</a>
-                  <span class="icon is-pulled-right red-color">
-                    <i class="fa fa-check-circle"></i>
-                  </span>
-                </li>
+                <!--                <li>
+                                  <a href="https://www.udemy.com/certificate/UC-M22JPR5Y/" target="_blank">Git y Github
+                                    desde 0</a>
+                                  <span class="icon is-pulled-right red-color">
+                                    <i class="fa fa-check-circle"></i>
+                                  </span>
+                                </li>-->
               </ul>
             </div>
           </div>
@@ -103,6 +110,20 @@
             <div class="content">
               <p class="subtitle">Frontend</p>
               <ul style="list-style: none">
+                <li style="font-weight: bold">
+                  <a href="https://advancedreact.com/" target="_blank">Fullstack
+                    Advanced React & GraphQL</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-spinner fa-spin"></i>
+                  </span>
+                </li>
+                <li style="font-weight: bold">
+                  <a href="https://www.udemy.com/certificate/UC-f2312acc-746f-413a-89f0-1ca1d1ae6965/" target="_blank">End
+                    to End React with Prisma 2 (& GraphQL)</a>
+                  <span class="icon is-pulled-right red-color">
+                    <i class="fa fa-check-circle"></i>
+                  </span>
+                </li>
                 <li style="font-weight: bold">
                   <a href="https://www.udemy.com/certificate/UC-f343ef5e-8d1a-4058-bdd8-8a5e408f9e17/" target="_blank">React
                     Avanzado: Fullstack Next.js, Apollo, MongoDB y GraphQL</a>
@@ -150,18 +171,18 @@
                     <i class="fa fa-check-circle"></i>
                   </span>
                 </li>
-                <li>
-                  <a href="#">Javascript Roadtrip</a>
-                  <span class="icon is-pulled-right red-color">
-                    <i class="fa fa-check-circle"></i>
-                  </span>
-                </li>
-                <li>
-                  <a href="#">CSS Desde 0</a>
-                  <span class="icon is-pulled-right red-color">
-                    <i class="fa fa-check-circle"></i>
-                  </span>
-                </li>
+                <!--                <li>
+                                  <a href="#">Javascript Roadtrip</a>
+                                  <span class="icon is-pulled-right red-color">
+                                    <i class="fa fa-check-circle"></i>
+                                  </span>
+                                </li>-->
+                <!--                <li>
+                                  <a href="#">CSS Desde 0</a>
+                                  <span class="icon is-pulled-right red-color">
+                                    <i class="fa fa-check-circle"></i>
+                                  </span>
+                                </li>-->
               </ul>
             </div>
           </div>
