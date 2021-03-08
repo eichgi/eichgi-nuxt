@@ -20,6 +20,19 @@
   dependencies:
     bulma "^0.6.1"
 
+"@nuxtjs/dotenv@^1.1.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/dotenv/-/dotenv-1.4.1.tgz#dd5abb98e22cc7ae27139d3aa606151034293128"
+  dependencies:
+    consola "^2.10.1"
+    dotenv "^8.1.0"
+
+"@nuxtjs/google-analytics@^2.0.2":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/google-analytics/-/google-analytics-2.4.0.tgz#3bb9f398a05cc23340d1f423f8d8653dc4114f46"
+  dependencies:
+    vue-analytics "^5.22.1"
+
 "@nuxtjs/proxy@^1.1.4":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@nuxtjs/proxy/-/proxy-1.1.4.tgz#71056d402d57c825a098c1651138a878ee6c0d23"
@@ -899,9 +912,9 @@ bluebird@^3.1.1, bluebird@^3.4.7, bluebird@^3.5.0, bluebird@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
 
-bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
-  version "4.11.8"
-  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
+bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.11.9:
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.12.0.tgz#775b3f278efbb9718eec7361f483fb36fbbfea88"
 
 body-parser@1.18.2:
   version "1.18.2"
@@ -959,7 +972,7 @@ braces@^2.3.0:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-brorand@^1.0.1:
+brorand@^1.0.1, brorand@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/brorand/-/brorand-1.1.0.tgz#12c25efe40a45e3c323eb8675a0a0ce57b22371f"
 
@@ -1405,6 +1418,10 @@ connect@^3.6.5:
     parseurl "~1.3.2"
     utils-merge "1.0.1"
 
+consola@^2.10.1:
+  version "2.15.3"
+  resolved "https://registry.yarnpkg.com/consola/-/consola-2.15.3.tgz#2e11f98d6a4be71ff72e0bdf07bd23e12cb61550"
+
 console-browserify@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/console-browserify/-/console-browserify-1.1.0.tgz#f0241c45730a9fc6323b206dbf38edc741d0bb10"
@@ -1799,6 +1816,12 @@ dom-serializer@0:
     domelementtype "~1.1.1"
     entities "~1.1.1"
 
+dom7@^2.1.3:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/dom7/-/dom7-2.1.5.tgz#a79411017800b31d8400070cdaebbfc92c1f6377"
+  dependencies:
+    ssr-window "^2.0.0"
+
 domain-browser@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.2.0.tgz#3d31f50191a6749dd1375a7f522e823d42e54eda"
@@ -1829,6 +1852,10 @@ domutils@1.5.1:
   dependencies:
     dom-serializer "0"
     domelementtype "1"
+
+dotenv@^8.1.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
 
 duplexer@^0.1.1:
   version "0.1.1"
@@ -1862,16 +1889,16 @@ electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.33.tgz#bf00703d62a7c65238136578c352d6c5c042a545"
 
 elliptic@^6.0.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.4.0.tgz#cac9af8762c85836187003c8dfe193e5e2eae5df"
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.4.tgz#da37cebd31e79a1367e941b592ed1fbebd58abbb"
   dependencies:
-    bn.js "^4.4.0"
-    brorand "^1.0.1"
+    bn.js "^4.11.9"
+    brorand "^1.1.0"
     hash.js "^1.0.0"
-    hmac-drbg "^1.0.0"
-    inherits "^2.0.1"
-    minimalistic-assert "^1.0.0"
-    minimalistic-crypto-utils "^1.0.0"
+    hmac-drbg "^1.0.1"
+    inherits "^2.0.4"
+    minimalistic-assert "^1.0.1"
+    minimalistic-crypto-utils "^1.0.1"
 
 emojis-list@^2.0.0:
   version "2.1.0"
@@ -2550,11 +2577,11 @@ hash-sum@^1.0.2:
   resolved "https://registry.yarnpkg.com/hash-sum/-/hash-sum-1.0.2.tgz#33b40777754c6432573c120cc3808bbd10d47f04"
 
 hash.js@^1.0.0, hash.js@^1.0.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/hash.js/-/hash.js-1.1.3.tgz#340dedbe6290187151c1ea1d777a3448935df846"
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/hash.js/-/hash.js-1.1.7.tgz#0babca538e8d4ee4a0f8988d68866537a003cf42"
   dependencies:
     inherits "^2.0.3"
-    minimalistic-assert "^1.0.0"
+    minimalistic-assert "^1.0.1"
 
 hawk@3.1.3, hawk@~3.1.3:
   version "3.1.3"
@@ -2569,7 +2596,7 @@ he@1.1.x, he@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
 
-hmac-drbg@^1.0.0:
+hmac-drbg@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
   dependencies:
@@ -2715,13 +2742,17 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@2.0.3, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.0, inherits@~2.0.1, inherits@~2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
+inherits@2, inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.0, inherits@~2.0.1, inherits@~2.0.3:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
 
 inherits@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.1.tgz#b17d08d326b4423e568eff719f91b0b1cbdf69f1"
+
+inherits@2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
 
 ini@~1.3.0:
   version "1.3.5"
@@ -3374,11 +3405,11 @@ mimic-fn@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
 
-minimalistic-assert@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.0.tgz#702be2dda6b37f4836bcb3f5db56641b64a1d3d3"
+minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
 
-minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
+minimalistic-crypto-utils@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
 
@@ -5197,6 +5228,14 @@ sshpk@^1.7.0:
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
 
+ssr-window@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ssr-window/-/ssr-window-1.0.1.tgz#30752a6a4666e7767f0b7e6aa6fc2fdbd0d9b369"
+
+ssr-window@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ssr-window/-/ssr-window-2.0.0.tgz#98c301aef99523317f8d69618f0010791096efc4"
+
 ssri@^5.0.0:
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/ssri/-/ssri-5.2.2.tgz#797be390aefe03996e4d961657a946121e2feacf"
@@ -5361,6 +5400,13 @@ svgo@^0.7.0:
     mkdirp "~0.5.1"
     sax "~1.2.1"
     whet.extend "~0.9.9"
+
+swiper@^4.0.7:
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-4.5.1.tgz#ed43998e780ceb478610079c8d23fd425eca636f"
+  dependencies:
+    dom7 "^2.1.3"
+    ssr-window "^1.0.1"
 
 tapable@^0.2.7:
   version "0.2.8"
@@ -5697,6 +5743,17 @@ vm-browserify@0.0.4:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-0.0.4.tgz#5d7ea45bbef9e4a6ff65f95438e0a87c357d5a73"
   dependencies:
     indexof "0.0.1"
+
+vue-analytics@^5.22.1:
+  version "5.22.1"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.22.1.tgz#9d6b32da56daee1b9dfb23a267b50349a03f710f"
+
+vue-awesome-swiper@^3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/vue-awesome-swiper/-/vue-awesome-swiper-3.1.3.tgz#05500b501ffb3fec9bf7eb9985bcf4ae8360ed9e"
+  dependencies:
+    object-assign "^4.1.1"
+    swiper "^4.0.7"
 
 vue-hot-reload-api@^2.2.0:
   version "2.2.4"
