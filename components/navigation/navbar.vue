@@ -16,10 +16,10 @@
       <div class="navbar-start"></div>
 
       <div class="navbar-end">
-        <nuxt-link to="/blog" class="navbar-item" active-class="is-active">
+<!--        <nuxt-link to="/blog" class="navbar-item" active-class="is-active">
           <i class="fa fa-rss"></i> &nbsp;
           Blog
-        </nuxt-link>
+        </nuxt-link>-->
         <nuxt-link to="/portfolio" class="navbar-item" active-class="is-active">
           <i class="fa fa-code"></i> &nbsp;
           Portfolio

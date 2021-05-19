@@ -5,9 +5,7 @@
         <div class="content">
           <p>I am a software developer focused on web & mobile technologies. I have participated with several
             multidisciplinary teams; on site and remotely. I blog on <a
-              href="https://hoclabs.com/blog" target="_blank">WP Blog</a>,
-            <a href="http://devjournal.eichgi.com" target="_blank">DevJournal Blog</a>, <a
-              href="https://medium.com/@eichgi" target="_blank">Medium</a> & <a href="https://dev.to/eichgi"
+              href="https://eichgi.hashnode.dev/" target="_blank">Hashnode</a> & <a href="https://dev.to/eichgi"
                                                                                 target="_blank">
               <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Hiram's DEV Profile" height="20"
                    width="20"/>

@@ -15,12 +15,13 @@
           </header>
           <div class="card-content">
             <div class="content">
-              I am a Full stack dev and Devops learner. I have experience with:
+              I am a Full stack dev and Devops apprentice. I have experience with:
               <ul>
                 <li>Implementation of UI/UX</li>
                 <li>Database design and modeling</li>
                 <li>API construction and integration</li>
                 <li>Management and deployment of staging and production environments</li>
+                <li>Android development (native & hybrid)</li>
               </ul>
             </div>
           </div>
